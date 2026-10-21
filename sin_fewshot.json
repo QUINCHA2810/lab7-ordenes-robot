@@ -1,0 +1,112 @@
+[
+  {
+    "modelo": "qwen2.5:1.5b",
+    "fewshot": false,
+    "solo_cpu": true,
+    "latencia_mediana_s": 3.805,
+    "json_valido_pct": 100.0,
+    "sin_avisos_pct": 30.0,
+    "ram_modelo_gb": 1.17,
+    "ram_procesos_ollama_gb": 0.06,
+    "detalle": [
+      {
+        "nivel": "1",
+        "orden": "Trae el vaso",
+        "salida": "{\"acciones\": [{\"accion\": \"traer\", \"objetos\": [{\"nombre\": \"vaso\", \"adjetivos\": []}], \"personas\": [{\"nombre\": \"\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"\", \"adjetivos\": []}]}]}",
+        "latencia_s": 3.394,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "1",
+        "orden": "Saluda al visitante",
+        "salida": "{\"acciones\": [{\"accion\": \"saludar\", \"objetos\": [{\"nombre\": \"visitante\", \"adjetivos\": []}], \"personas\": [{\"nombre\": \"tu\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"la casa\", \"adjetivos\": []}]}]}",
+        "latencia_s": 3.728,
+        "json_valido": true,
+        "avisos": [
+          "'tu' anotado como persona",
+          "articulo en 'la casa'"
+        ]
+      },
+      {
+        "nivel": "2",
+        "orden": "Pon el libro azul sobre la mesa pequeña",
+        "salida": "{\"acciones\": [{\"accion\": \"poner\", \"objetos\": [{\"nombre\": \"libro\", \"adjetivos\": [\"azul\"]}], \"personas\": [{\"nombre\": \"\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"mesa\", \"adjetivos\": [\"pequeña\"]}]}]}",
+        "latencia_s": 4.155,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "2",
+        "orden": "Lleva el paquete grande a la oficina principal",
+        "salida": "{\"acciones\": [{\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"paquete\", \"adjetivos\": [\"grande\"]}], \"personas\": [{\"nombre\": \"\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"oficina principal\", \"adjetivos\": []}]}]}",
+        "latencia_s": 3.867,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "3",
+        "orden": "Ve al cuarto, toma la cobija gris y tráesela a la abuela",
+        "salida": "{\"acciones\": [{\"accion\": \"ir\", \"objetos\": [{\"nombre\": \"el cuarto\", \"adjetivos\": []}], \"personas\": [{\"nombre\": \"\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"el cuarto\", \"adjetivos\": []}]}]}",
+        "latencia_s": 3.743,
+        "json_valido": true,
+        "avisos": [
+          "articulo en 'el cuarto'",
+          "articulo en 'el cuarto'"
+        ]
+      },
+      {
+        "nivel": "3",
+        "orden": "Recibe a la señora Gómez, acompáñala a la sala de reuniones y avísale a Carlos",
+        "salida": "{\"acciones\": [{\"accion\": \"recebir\", \"objetos\": [{\"nombre\": \"la señora Gómez\", \"adjetivos\": []}], \"personas\": [{\"nombre\": \"Carlos\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"la sala de reuniones\", \"adjetivos\": []}]}]}",
+        "latencia_s": 4.28,
+        "json_valido": true,
+        "avisos": [
+          "articulo en 'la señora Gómez'",
+          "articulo en 'la sala de reuniones'"
+        ]
+      },
+      {
+        "nivel": "4",
+        "orden": "oye porfa me alcanzas el celular que dejé en el cuarto",
+        "salida": "{\"acciones\": [{\"accion\": \"acercarte\", \"objetos\": [{\"nombre\": \"celular\", \"adjetivos\": [\"\"]}], \"personas\": [{\"nombre\": \"tu\", \"adjetivos\": [\"\"]}], \"lugares\": [{\"nombre\": \"cuarto\", \"adjetivos\": [\"\"]}]}]}",
+        "latencia_s": 3.899,
+        "json_valido": true,
+        "avisos": [
+          "accion no infinitivo: 'acercarte'",
+          "'tu' anotado como persona"
+        ]
+      },
+      {
+        "nivel": "4",
+        "orden": "eh mira dile al señor de la corbata roja que ya lo atienden",
+        "salida": "{\"acciones\": [{\"accion\": \"dile\", \"objetos\": [{\"nombre\": \"señor\", \"adjetivos\": [\"de la corbata roja\"]}], \"personas\": [{\"nombre\": \"señor\", \"adjetivos\": [\"de la corbata roja\"]}], \"lugares\": []}]}",
+        "latencia_s": 4.127,
+        "json_valido": true,
+        "avisos": [
+          "accion no infinitivo: 'dile'"
+        ]
+      },
+      {
+        "nivel": "5",
+        "orden": "Tráeme eso",
+        "salida": "{\"acciones\": [{\"accion\": \"traer\", \"objetos\": [{\"nombre\": \"eso\", \"adjetivos\": []}], \"personas\": [{\"nombre\": \"tu\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"aquí\", \"adjetivos\": []}]}]}",
+        "latencia_s": 3.55,
+        "json_valido": true,
+        "avisos": [
+          "'tu' anotado como persona"
+        ]
+      },
+      {
+        "nivel": "5",
+        "orden": "Qué demora la de hoy",
+        "salida": "{\"acciones\": [{\"accion\": \"demora\", \"objetos\": [{\"nombre\": \"de\", \"adjetivos\": [\"hoy\"]}], \"personas\": [{\"nombre\": \"\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"\", \"adjetivos\": []}]}]}",
+        "latencia_s": 3.432,
+        "json_valido": true,
+        "avisos": [
+          "accion no infinitivo: 'demora'"
+        ]
+      }
+    ]
+  }
+]

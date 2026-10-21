@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+# Modelos descargados (ver README para obtenerlos)
+modelos/
+*.onnx
+*.onnx.json
+*.gguf
+# Audios regenerables (los de audios/ SI se versionan: son un entregable)
+audios_sinteticos/*.wav
+respuestas_voz/
+# Varios
+*.zip
+~$*
+
+# Nota de traspaso interna (no es parte del entregable)
+PROMPT_CLAUDE_CODE.md

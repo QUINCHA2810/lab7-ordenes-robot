@@ -1,0 +1,51 @@
+
+======================================================================
+Modelo: qwen2.5:1.5b
+======================================================================
+  1/30 O007 (2.3 s)
+  2/30 O008 (2.3 s)
+  3/30 O009 (2.3 s)
+  4/30 O010 (2.4 s)
+  5/30 O011 (2.2 s)
+  6/30 O012 (2.3 s)
+  7/30 O019 (15.3 s)
+  8/30 O020 (14.6 s)
+  9/30 O021 (3.7 s)
+  10/30 O022 (3.6 s)
+  11/30 O023 (3.4 s)
+  12/30 O024 (3.2 s)
+  13/30 O031 (8.6 s)
+  14/30 O032 (8.7 s)
+  15/30 O033 (8.6 s)
+  16/30 O034 (8.2 s)
+  17/30 O035 (8.4 s)
+  18/30 O036 (7.1 s)
+  19/30 O043 (3.5 s)
+  20/30 O044 (3.5 s)
+  21/30 O045 (3.3 s)
+  22/30 O046 (9.6 s)
+  23/30 O047 (17.3 s)
+  24/30 O048 (3.2 s)
+  25/30 O055 (1.6 s)
+  26/30 O056 (1.7 s)
+  27/30 O057 (3.7 s)
+  28/30 O058 (2.6 s)
+  29/30 O059 (2.5 s)
+  30/30 O060 (2.4 s)
+
+Configuracion: {'version': 'v1', 'particion': 'prueba', 'ordenes': 30, 'ejemplos': 7, 'postproceso': False, 'repeticiones': 1, 'solo_cpu': True}
+Modelo         F1 prom  Estruct  Robust  JSON% Exactas%  Lat(s)  RAM(GB)
+qwen2.5:1.5b     0.523    0.386   0.382  100.0     26.7    3.41     1.17
+
+F1 por categoria:
+Modelo            accion   persona    objeto  adjetivo     lugar
+qwen2.5:1.5b       0.766     0.231     0.618     0.531     0.471
+
+Ordenes exactas por nivel:
+  qwen2.5:1.5b  N1:5/6  N2:1/6  N3:1/6  N4:0/6  N5:1/6
+
+Rubrica (F1 promedio): >=0.85 excelente, 0.70-0.85 aceptable, <0.70 deficiente.
+
+PARTICION DE PRUEBA: no muestro los errores orden por orden para que no ajustes el prompt con ellos. Usa --ver-errores si necesitas analizarlos para el informe.
+
+Resultados completos en eval_prueba_v1_qwen15_final.json

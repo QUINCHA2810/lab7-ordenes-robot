@@ -1,0 +1,59 @@
+[
+  {
+    "archivo": null,
+    "transcripcion": "Lleva la taza roja a la cocina y entrégasela a María",
+    "acciones": [
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "taza",
+            "adjetivos": [
+              "roja"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "cocina",
+            "adjetivos": []
+          }
+        ]
+      },
+      {
+        "accion": "entrar",
+        "objetos": [
+          {
+            "nombre": "taza",
+            "adjetivos": [
+              "roja"
+            ]
+          }
+        ],
+        "personas": [
+          {
+            "nombre": "María",
+            "adjetivos": []
+          }
+        ],
+        "lugares": [
+          {
+            "nombre": "cocina",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a llevar la taza roja a la cocina y entrar la taza roja a María en la cocina",
+    "metricas": {
+      "latencia_s": 6.793,
+      "s2t_s": 0.0,
+      "llm_s": 6.628,
+      "tts_s": 0.165,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\orden.wav"
+    }
+  }
+]

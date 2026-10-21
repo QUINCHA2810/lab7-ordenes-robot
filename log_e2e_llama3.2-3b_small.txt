@@ -1,0 +1,18 @@
+Cargando Whisper 'small' (CPU, int8)...
+Calentando el LLM 'llama3.2:3b'...
+  1/30 O007.wav: 7.3 s | "Cierra la ventana." -> Voy a cerrar la ventana
+  2/30 O008.wav: 6.5 s | "Atiende al cliente." -> Voy a atender al cliente
+  3/30 O009.wav: 6.5 s | "Enciende el televisor." -> Voy a encender en el televisor
+  4/30 O010.wav: 6.8 s | "Anuncia a Camila" -> Voy a anunciar a Camila
+  5/30 O011.wav: 6.3 s | "Busca el control." -> Voy a buscar el control
+  6/30 O012.wav: 6.3 s | "Entrega la carta." -> Voy a entregar la carta
+  7/30 O019.wav: 12.7 s | "Pon la sopa caliente sobre la mesa grande." -> Voy a poner la sopa caliente en la mesa grande y poner la sopa caliente
+  8/30 O020.wav: 8.6 s | "Tráe el café frío a la sala pequeña." -> Voy a llevar el café frío a la sala pequeña
+  9/30 O021.wav: 8.5 s | "Guarda la ropa limpia en el armario viejo." -> Voy a guardar la ropa limpia en el armario viejo
+  10/30 O022.wav: 9.1 s | "Lleva la bolsa roja a la recepción principal." -> Voy a llevar la bolsa roja a la recepción principal
+  11/30 O023.wav: 8.2 s | "Trae la coija gris al sofá." -> Voy a llevar la coija gris al sofá
+  12/30 O024.wav: 8.1 s | "Busca al Señor alto en el pasillo." -> Voy a buscar a Señor alto alto en el pasillo
+  13/30 O031.wav: 21.9 s | "Ve a la sala, recuele los platos sucios y llevarlos a la cocina." -> Voy a ir a la sala, recoger los platos sucios y llevar los platos sucios a la cocina
+  14/30 O032.wav: 1098.8 s | "Recibe al señor Rojas, ofrecele un café caliente y acompáñalo a la oficina grande." -> Voy a recibir al señor Rojas, ofrecer el café caliente al señor Rojas y acompañar al señor Rojas a la oficina grande
+  15/30 O033.wav: 28.2 s | "Toma la amanta verde, ponla en el sofá y apaga la luz." -> ¿Qué quieres que apague?
+  16/30 O034.wav: 21.2 s | "Busca Daniela, entregale la carpeta azul y avísale a Sergio." -> Voy a buscar a Daniela, entregar la carpeta azul a Daniela y avisar a Sergio

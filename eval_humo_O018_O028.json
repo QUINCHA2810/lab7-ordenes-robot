@@ -1,0 +1,128 @@
+{
+ "config": {
+  "version": "v2",
+  "particion": "ajuste",
+  "ordenes": 2,
+  "ejemplos": 12,
+  "postproceso": true,
+  "repeticiones": 1,
+  "solo_cpu": true
+ },
+ "resultados": [
+  {
+   "modelo": "qwen2.5:1.5b",
+   "metricas": {
+    "n": 2,
+    "f1_categorias": {
+     "accion": 0.6,
+     "persona": 0.857,
+     "objeto": 0.333,
+     "adjetivo": 0.571,
+     "lugar": 0.5
+    },
+    "f1_promedio": 0.572,
+    "estructura_f1": 0.381,
+    "robustez_f1": null,
+    "json_valido_pct": 100.0,
+    "exactas_pct": 0.0,
+    "exactas_por_nivel": {
+     "2": "0/1",
+     "3": "0/1"
+    },
+    "latencia_mediana_s": 17.813,
+    "ram_modelo_gb": 1.17
+   },
+   "detalle": [
+    {
+     "id": "O018",
+     "nivel": "2",
+     "orden": "Lleva la carpeta azul a la oficina grande",
+     "gold": {
+      "acciones": [
+       {
+        "accion": "llevar",
+        "objetos": [
+         {
+          "nombre": "carpeta",
+          "adjetivos": [
+           "azul"
+          ]
+         }
+        ],
+        "personas": [],
+        "lugares": [
+         {
+          "nombre": "oficina",
+          "adjetivos": [
+           "grande"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     "pred_bruta": "{\"acciones\": [{\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"café\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"oficina\", \"adjetivos\": [\"grande\"]}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"café\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"oficina\", \"adjetivos\": [\"grande\"]}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"café\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"oficina\", \"adjetivos\": [\"grande\"]}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"café\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"oficina\", \"adjetivos\": [\"grande\"]}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"café\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"oficina\", \"adjetivos\": [\"grande\"]}]}]}",
+     "pred": "{\"acciones\": [{\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"café\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"oficina\", \"adjetivos\": [\"grande\"]}]}]}",
+     "latencia_s": 17.601
+    },
+    {
+     "id": "O028",
+     "nivel": "3",
+     "orden": "Saluda a Laura, dale el sobre blanco y acompáñala a la salida",
+     "gold": {
+      "acciones": [
+       {
+        "accion": "saludar",
+        "objetos": [],
+        "personas": [
+         {
+          "nombre": "Laura",
+          "adjetivos": []
+         }
+        ],
+        "lugares": []
+       },
+       {
+        "accion": "dar",
+        "objetos": [
+         {
+          "nombre": "sobre",
+          "adjetivos": [
+           "blanco"
+          ]
+         }
+        ],
+        "personas": [
+         {
+          "nombre": "Laura",
+          "adjetivos": []
+         }
+        ],
+        "lugares": []
+       },
+       {
+        "accion": "acompañar",
+        "objetos": [],
+        "personas": [
+         {
+          "nombre": "Laura",
+          "adjetivos": []
+         }
+        ],
+        "lugares": [
+         {
+          "nombre": "salida",
+          "adjetivos": []
+         }
+        ]
+       }
+      ]
+     },
+     "pred_bruta": "{\"acciones\": [{\"accion\": \"saludar\", \"objetos\": [{\"nombre\": \"sobre\", \"adjetivos\": [\"blanco\"]}], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"sobre\", \"adjetivos\": [\"blanco\"]}], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"acompañar\", \"objetos\": [], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"ir\", \"objetos\": [], \"personas\": [], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"sobre\", \"adjetivos\": [\"blanco\"]}], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}]}",
+     "pred": "{\"acciones\": [{\"accion\": \"saludar\", \"objetos\": [{\"nombre\": \"sobre\", \"adjetivos\": [\"blanco\"]}], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"sobre\", \"adjetivos\": [\"blanco\"]}], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"acompañar\", \"objetos\": [], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"ir\", \"objetos\": [], \"personas\": [], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"sobre\", \"adjetivos\": [\"blanco\"]}], \"personas\": [{\"nombre\": \"Laura\", \"adjetivos\": []}], \"lugares\": [{\"nombre\": \"salida\", \"adjetivos\": []}]}]}",
+     "latencia_s": 18.026
+    }
+   ]
+  }
+ ]
+}

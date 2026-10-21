@@ -1,0 +1,1749 @@
+{
+ "nota": "Ordenes redactadas con ayuda de IA aplicando las reglas de la guia del Lab 7. NO son las ordenes del profesor: revisar las anotaciones en equipo antes de usarlas en el informe.",
+ "convenciones": [
+  "Accion en infinitivo y minuscula; es el verbo de la orden (traesela -> traer, llevasela -> llevar, dile -> decir, avisale -> avisar).",
+  "Nombres sin articulo, como aparecen en la orden; los nombres propios llevan mayuscula (Carlos, senora Gomez).",
+  "Los adjetivos van aparte del nombre y como aparecen: 'oficina principal' -> nombre 'oficina' + adjetivo 'principal'; 'senor alto' -> 'senor' + 'alto'.",
+  "Los pronombres se reemplazan por su referente (ponlo -> el plato limpio). SUPUESTO A CONFIRMAR CON EL PROFESOR: si no hay referente ('traeme eso') se anota la accion con listas vacias.",
+  "'Tu', 'yo' y 'me' no se anotan como personas.",
+  "Lo que no es una instruccion para el robot (comentarios, saludos, afirmaciones) -> acciones: [].",
+  "Un lugar va en la accion a la que pertenece (acompanala a la sala -> el lugar va en 'acompanar', no en 'recibir').",
+  "Se evitaron complementos con preposicion ('el senor de la corbata roja') porque la guia no dice como anotarlos; consultar al profesor.",
+  "Particion 'ajuste': para afinar prompts y ejemplos. Particion 'prueba': solo para medir al final, sin ajustar nada mirando sus errores."
+ ],
+ "ordenes": [
+  {
+   "id": "O001",
+   "nivel": "1",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Trae el vaso",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "vaso",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O002",
+   "nivel": "1",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Saluda al visitante",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "saludar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "visitante",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O003",
+   "nivel": "1",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Apaga la luz",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "apagar",
+      "objetos": [
+       {
+        "nombre": "luz",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O004",
+   "nivel": "1",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Busca a Andrés",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Andrés",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O005",
+   "nivel": "1",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Abre la puerta",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "abrir",
+      "objetos": [
+       {
+        "nombre": "puerta",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O006",
+   "nivel": "1",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Recibe el paquete",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "recibir",
+      "objetos": [
+       {
+        "nombre": "paquete",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O007",
+   "nivel": "1",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Cierra la ventana",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "cerrar",
+      "objetos": [
+       {
+        "nombre": "ventana",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O008",
+   "nivel": "1",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Atiende al cliente",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "atender",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "cliente",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O009",
+   "nivel": "1",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Enciende el televisor",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "encender",
+      "objetos": [
+       {
+        "nombre": "televisor",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O010",
+   "nivel": "1",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Anuncia a Camila",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "anunciar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Camila",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O011",
+   "nivel": "1",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Busca el control",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [
+       {
+        "nombre": "control",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O012",
+   "nivel": "1",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Entrega la carta",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "entregar",
+      "objetos": [
+       {
+        "nombre": "carta",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O013",
+   "nivel": "2",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Pon el libro azul sobre la mesa pequeña",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "libro",
+        "adjetivos": [
+         "azul"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O014",
+   "nivel": "2",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Lleva el paquete grande a la oficina principal",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "paquete",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "principal"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O015",
+   "nivel": "2",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Trae la toalla blanca al baño",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "toalla",
+        "adjetivos": [
+         "blanca"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "baño",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O016",
+   "nivel": "2",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Guía a la señora alta hasta la sala nueva",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "guiar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señora",
+        "adjetivos": [
+         "alta"
+        ]
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "nueva"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O017",
+   "nivel": "2",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Busca el cargador negro en el cuarto",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [
+       {
+        "nombre": "cargador",
+        "adjetivos": [
+         "negro"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cuarto",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O018",
+   "nivel": "2",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Lleva la carpeta azul a la oficina grande",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "carpeta",
+        "adjetivos": [
+         "azul"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O019",
+   "nivel": "2",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Pon la sopa caliente sobre la mesa grande",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "sopa",
+        "adjetivos": [
+         "caliente"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O020",
+   "nivel": "2",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Trae el café frío a la sala pequeña",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "frío"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O021",
+   "nivel": "2",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Guarda la ropa limpia en el armario viejo",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "ropa",
+        "adjetivos": [
+         "limpia"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "armario",
+        "adjetivos": [
+         "viejo"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O022",
+   "nivel": "2",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Lleva la bolsa roja a la recepción principal",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "bolsa",
+        "adjetivos": [
+         "roja"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "recepción",
+        "adjetivos": [
+         "principal"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O023",
+   "nivel": "2",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Trae la cobija gris al sofá",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "gris"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sofá",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O024",
+   "nivel": "2",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Busca al señor alto en el pasillo",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor",
+        "adjetivos": [
+         "alto"
+        ]
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "pasillo",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O025",
+   "nivel": "3",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Ve al cuarto, toma la cobija gris y tráesela a la abuela",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cuarto",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "tomar",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "gris"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "gris"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "abuela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O026",
+   "nivel": "3",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Recibe a la señora Gómez, acompáñala a la sala de reuniones y avísale a Carlos",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "recibir",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señora Gómez",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señora Gómez",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala de reuniones",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Carlos",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O027",
+   "nivel": "3",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Ve a la cocina, toma el plato limpio y ponlo en la mesa",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cocina",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "tomar",
+      "objetos": [
+       {
+        "nombre": "plato",
+        "adjetivos": [
+         "limpio"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "plato",
+        "adjetivos": [
+         "limpio"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O028",
+   "nivel": "3",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Saluda a Laura, dale el sobre blanco y acompáñala a la salida",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "saludar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Laura",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "dar",
+      "objetos": [
+       {
+        "nombre": "sobre",
+        "adjetivos": [
+         "blanco"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "Laura",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Laura",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "salida",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O029",
+   "nivel": "3",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Busca las gafas en el baño y llévaselas a Julián",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [
+       {
+        "nombre": "gafas",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "baño",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "gafas",
+        "adjetivos": []
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "Julián",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O030",
+   "nivel": "3",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Toma el paquete pequeño, llévalo a la oficina principal y avísale a Marcela",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "tomar",
+      "objetos": [
+       {
+        "nombre": "paquete",
+        "adjetivos": [
+         "pequeño"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "paquete",
+        "adjetivos": [
+         "pequeño"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "principal"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Marcela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O031",
+   "nivel": "3",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Ve a la sala, recoge los platos sucios y llévalos a la cocina",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "recoger",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": [
+         "sucios"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": [
+         "sucios"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cocina",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O032",
+   "nivel": "3",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Recibe al señor Rojas, ofrécele un café caliente y acompáñalo a la oficina grande",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "recibir",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "ofrecer",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "caliente"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O033",
+   "nivel": "3",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Toma la manta verde, ponla en el sofá y apaga la luz",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "tomar",
+      "objetos": [
+       {
+        "nombre": "manta",
+        "adjetivos": [
+         "verde"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "manta",
+        "adjetivos": [
+         "verde"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sofá",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "apagar",
+      "objetos": [
+       {
+        "nombre": "luz",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O034",
+   "nivel": "3",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Busca a Daniela, entrégale la carpeta azul y avísale a Sergio",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Daniela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "entregar",
+      "objetos": [
+       {
+        "nombre": "carpeta",
+        "adjetivos": [
+         "azul"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "Daniela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Sergio",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O035",
+   "nivel": "3",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Ve al garaje, trae la escalera pequeña y llévasela a papá",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "garaje",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "escalera",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "escalera",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "papá",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O036",
+   "nivel": "3",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Lleva el café negro a la sala de reuniones, saluda a los visitantes y cierra la puerta",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "negro"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala de reuniones",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "saludar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "visitantes",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "cerrar",
+      "objetos": [
+       {
+        "nombre": "puerta",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O037",
+   "nivel": "4",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "oye porfa me alcanzas el celular que dejé en el cuarto",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "alcanzar",
+      "objetos": [
+       {
+        "nombre": "celular",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cuarto",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O038",
+   "nivel": "4",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "ey porfa llama a Carlos que lo necesito",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llamar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Carlos",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O039",
+   "nivel": "4",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "mira porfa tráeme el cargador negro que está en la sala",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cargador",
+        "adjetivos": [
+         "negro"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O040",
+   "nivel": "4",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "oiga me hace el favor y le dice al señor alto que ya lo atienden",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "decir",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor",
+        "adjetivos": [
+         "alto"
+        ]
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O041",
+   "nivel": "4",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "eh bueno ya porfa apaga el televisor",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "apagar",
+      "objetos": [
+       {
+        "nombre": "televisor",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O042",
+   "nivel": "4",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "ey mira lleva estos papeles a la oficina",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "papeles",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O043",
+   "nivel": "4",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "oye me traes una cobija limpia del cuarto",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "limpia"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cuarto",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O044",
+   "nivel": "4",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "ey avísale a la señora Gómez que ya puede pasar",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señora Gómez",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O045",
+   "nivel": "4",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "oye abre la ventana grande porfa",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "abrir",
+      "objetos": [
+       {
+        "nombre": "ventana",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O046",
+   "nivel": "4",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "mira acompaña al cliente nuevo a la sala pequeña",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "cliente",
+        "adjetivos": [
+         "nuevo"
+        ]
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O047",
+   "nivel": "4",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "ey porfa recoge los platos sucios de la mesa",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "recoger",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": [
+         "sucios"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O048",
+   "nivel": "4",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "oiga porfa me guarda estos documentos en la oficina grande",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "documentos",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O049",
+   "nivel": "5",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Tráeme eso",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O050",
+   "nivel": "5",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Qué demora la de hoy",
+   "gold": {
+    "acciones": []
+   }
+  },
+  {
+   "id": "O051",
+   "nivel": "5",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Dámelo",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "dar",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O052",
+   "nivel": "5",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Hoy hay mucha gente en la recepción",
+   "gold": {
+    "acciones": []
+   }
+  },
+  {
+   "id": "O053",
+   "nivel": "5",
+   "escenario": "hogar",
+   "particion": "ajuste",
+   "orden": "Guárdalo allá",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "guardar",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O054",
+   "nivel": "5",
+   "escenario": "recepcion",
+   "particion": "ajuste",
+   "orden": "Gracias por todo, muy amable",
+   "gold": {
+    "acciones": []
+   }
+  },
+  {
+   "id": "O055",
+   "nivel": "5",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Ábrelo",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "abrir",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O056",
+   "nivel": "5",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Qué día tan largo",
+   "gold": {
+    "acciones": []
+   }
+  },
+  {
+   "id": "O057",
+   "nivel": "5",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Llévalas allá",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O058",
+   "nivel": "5",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "El ascensor está dañado otra vez",
+   "gold": {
+    "acciones": []
+   }
+  },
+  {
+   "id": "O059",
+   "nivel": "5",
+   "escenario": "hogar",
+   "particion": "prueba",
+   "orden": "Mañana llueve",
+   "gold": {
+    "acciones": []
+   }
+  },
+  {
+   "id": "O060",
+   "nivel": "5",
+   "escenario": "recepcion",
+   "particion": "prueba",
+   "orden": "Avísale que ya vamos",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  }
+ ]
+}

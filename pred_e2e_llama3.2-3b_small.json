@@ -1,0 +1,1042 @@
+[
+  {
+    "archivo": "O007.wav",
+    "transcripcion": "Cierra la ventana.",
+    "acciones": [
+      {
+        "accion": "cerrar",
+        "objetos": [
+          {
+            "nombre": "ventana",
+            "adjetivos": []
+          }
+        ],
+        "personas": [],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a cerrar la ventana",
+    "metricas": {
+      "latencia_s": 7.392,
+      "s2t_s": 1.929,
+      "llm_s": 5.358,
+      "tts_s": 0.105,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O007.wav"
+    }
+  },
+  {
+    "archivo": "O008.wav",
+    "transcripcion": "Atiende al cliente.",
+    "acciones": [
+      {
+        "accion": "atender",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "cliente",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a atender al cliente",
+    "metricas": {
+      "latencia_s": 7.109,
+      "s2t_s": 1.963,
+      "llm_s": 5.094,
+      "tts_s": 0.052,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O008.wav"
+    }
+  },
+  {
+    "archivo": "O009.wav",
+    "transcripcion": "Enciende el televisor.",
+    "acciones": [
+      {
+        "accion": "encender",
+        "objetos": [],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "televisor",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a encender en el televisor",
+    "metricas": {
+      "latencia_s": 6.357,
+      "s2t_s": 1.623,
+      "llm_s": 4.674,
+      "tts_s": 0.06,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O009.wav"
+    }
+  },
+  {
+    "archivo": "O010.wav",
+    "transcripcion": "Anuncia a Camila",
+    "acciones": [
+      {
+        "accion": "anunciar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "Camila",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a anunciar a Camila",
+    "metricas": {
+      "latencia_s": 6.407,
+      "s2t_s": 1.637,
+      "llm_s": 4.726,
+      "tts_s": 0.045,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O010.wav"
+    }
+  },
+  {
+    "archivo": "O011.wav",
+    "transcripcion": "Busca el control.",
+    "acciones": [
+      {
+        "accion": "buscar",
+        "objetos": [
+          {
+            "nombre": "control",
+            "adjetivos": []
+          }
+        ],
+        "personas": [],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a buscar el control",
+    "metricas": {
+      "latencia_s": 5.965,
+      "s2t_s": 1.598,
+      "llm_s": 4.323,
+      "tts_s": 0.045,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O011.wav"
+    }
+  },
+  {
+    "archivo": "O012.wav",
+    "transcripcion": "Entrega la carta.",
+    "acciones": [
+      {
+        "accion": "entregar",
+        "objetos": [
+          {
+            "nombre": "carta",
+            "adjetivos": []
+          }
+        ],
+        "personas": [],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a entregar la carta",
+    "metricas": {
+      "latencia_s": 6.269,
+      "s2t_s": 1.592,
+      "llm_s": 4.633,
+      "tts_s": 0.044,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O012.wav"
+    }
+  },
+  {
+    "archivo": "O019.wav",
+    "transcripcion": "Pon la sopa caliente sobre la mesa grande.",
+    "acciones": [
+      {
+        "accion": "poner",
+        "objetos": [
+          {
+            "nombre": "sopa",
+            "adjetivos": [
+              "caliente"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "mesa",
+            "adjetivos": [
+              "grande"
+            ]
+          }
+        ]
+      },
+      {
+        "accion": "poner",
+        "objetos": [
+          {
+            "nombre": "sopa",
+            "adjetivos": [
+              "caliente"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a poner la sopa caliente en la mesa grande y poner la sopa caliente",
+    "metricas": {
+      "latencia_s": 13.0,
+      "s2t_s": 1.686,
+      "llm_s": 11.179,
+      "tts_s": 0.136,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O019.wav"
+    }
+  },
+  {
+    "archivo": "O020.wav",
+    "transcripcion": "Tráe el café frío a la sala pequeña.",
+    "acciones": [
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "café",
+            "adjetivos": [
+              "frío"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "sala",
+            "adjetivos": [
+              "pequeña"
+            ]
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a llevar el café frío a la sala pequeña",
+    "metricas": {
+      "latencia_s": 8.816,
+      "s2t_s": 1.87,
+      "llm_s": 6.865,
+      "tts_s": 0.081,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O020.wav"
+    }
+  },
+  {
+    "archivo": "O021.wav",
+    "transcripcion": "Guarda la ropa limpia en el armario viejo.",
+    "acciones": [
+      {
+        "accion": "guardar",
+        "objetos": [
+          {
+            "nombre": "ropa",
+            "adjetivos": [
+              "limpia"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "armario",
+            "adjetivos": [
+              "viejo"
+            ]
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a guardar la ropa limpia en el armario viejo",
+    "metricas": {
+      "latencia_s": 9.137,
+      "s2t_s": 1.78,
+      "llm_s": 7.213,
+      "tts_s": 0.143,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O021.wav"
+    }
+  },
+  {
+    "archivo": "O022.wav",
+    "transcripcion": "Lleva la bolsa roja a la recepción principal.",
+    "acciones": [
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "bolsa",
+            "adjetivos": [
+              "roja"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "recepción",
+            "adjetivos": [
+              "principal"
+            ]
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a llevar la bolsa roja a la recepción principal",
+    "metricas": {
+      "latencia_s": 9.516,
+      "s2t_s": 2.361,
+      "llm_s": 7.044,
+      "tts_s": 0.111,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O022.wav"
+    }
+  },
+  {
+    "archivo": "O023.wav",
+    "transcripcion": "Trae la coija gris al sofá.",
+    "acciones": [
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "coija",
+            "adjetivos": [
+              "gris"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "sofá",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a llevar la coija gris al sofá",
+    "metricas": {
+      "latencia_s": 8.448,
+      "s2t_s": 1.878,
+      "llm_s": 6.507,
+      "tts_s": 0.063,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O023.wav"
+    }
+  },
+  {
+    "archivo": "O024.wav",
+    "transcripcion": "Busca al Señor alto en el pasillo.",
+    "acciones": [
+      {
+        "accion": "buscar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "Señor alto",
+            "adjetivos": [
+              "alto"
+            ]
+          }
+        ],
+        "lugares": [
+          {
+            "nombre": "pasillo",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a buscar a Señor alto alto en el pasillo",
+    "metricas": {
+      "latencia_s": 8.492,
+      "s2t_s": 1.779,
+      "llm_s": 6.631,
+      "tts_s": 0.082,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O024.wav"
+    }
+  },
+  {
+    "archivo": "O031.wav",
+    "transcripcion": "Ve a la sala, recuele los platos sucios y llevarlos a la cocina.",
+    "acciones": [
+      {
+        "accion": "ir",
+        "objetos": [],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "sala",
+            "adjetivos": []
+          }
+        ]
+      },
+      {
+        "accion": "recoger",
+        "objetos": [
+          {
+            "nombre": "platos",
+            "adjetivos": [
+              "sucios"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": []
+      },
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "platos",
+            "adjetivos": [
+              "sucios"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "cocina",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a ir a la sala, recoger los platos sucios y llevar los platos sucios a la cocina",
+    "metricas": {
+      "latencia_s": 17.863,
+      "s2t_s": 2.005,
+      "llm_s": 15.671,
+      "tts_s": 0.186,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O031.wav"
+    }
+  },
+  {
+    "archivo": "O032.wav",
+    "transcripcion": "Recibe al señor Rojas, ofrecele un café caliente y acompáñalo a la oficina grande.",
+    "acciones": [
+      {
+        "accion": "recibir",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "señor Rojas",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      },
+      {
+        "accion": "ofrecer",
+        "objetos": [
+          {
+            "nombre": "café",
+            "adjetivos": [
+              "caliente"
+            ]
+          }
+        ],
+        "personas": [
+          {
+            "nombre": "señor Rojas",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      },
+      {
+        "accion": "acompañar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "señor Rojas",
+            "adjetivos": []
+          }
+        ],
+        "lugares": [
+          {
+            "nombre": "oficina",
+            "adjetivos": [
+              "grande"
+            ]
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a recibir al señor Rojas, ofrecer el café caliente al señor Rojas y acompañar al señor Rojas a la oficina grande",
+    "metricas": {
+      "latencia_s": 20.427,
+      "s2t_s": 2.288,
+      "llm_s": 17.791,
+      "tts_s": 0.348,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O032.wav"
+    }
+  },
+  {
+    "archivo": "O033.wav",
+    "transcripcion": "Toma la amanta verde, ponla en el sofá y apaga la luz.",
+    "acciones": [
+      {
+        "accion": "tomar",
+        "objetos": [
+          {
+            "nombre": "amanta",
+            "adjetivos": [
+              "verde"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": []
+      },
+      {
+        "accion": "poner",
+        "objetos": [
+          {
+            "nombre": "amanta",
+            "adjetivos": [
+              "verde"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "sofá",
+            "adjetivos": []
+          }
+        ]
+      },
+      {
+        "accion": "apagar",
+        "objetos": [],
+        "personas": [],
+        "lugares": []
+      }
+    ],
+    "respuesta": "¿Qué quieres que apague?",
+    "metricas": {
+      "latencia_s": 15.443,
+      "s2t_s": 2.032,
+      "llm_s": 13.372,
+      "tts_s": 0.039,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O033.wav"
+    }
+  },
+  {
+    "archivo": "O034.wav",
+    "transcripcion": "Busca Daniela, entregale la carpeta azul y avísale a Sergio.",
+    "acciones": [
+      {
+        "accion": "buscar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "Daniela",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      },
+      {
+        "accion": "entregar",
+        "objetos": [
+          {
+            "nombre": "carpeta",
+            "adjetivos": [
+              "azul"
+            ]
+          }
+        ],
+        "personas": [
+          {
+            "nombre": "Daniela",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      },
+      {
+        "accion": "avisar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "Sergio",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a buscar a Daniela, entregar la carpeta azul a Daniela y avisar a Sergio",
+    "metricas": {
+      "latencia_s": 16.368,
+      "s2t_s": 1.861,
+      "llm_s": 14.369,
+      "tts_s": 0.137,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O034.wav"
+    }
+  },
+  {
+    "archivo": "O035.wav",
+    "transcripcion": "Ve al garage, trae la escalera pequeña y llévasela a papá.",
+    "acciones": [
+      {
+        "accion": "ir",
+        "objetos": [],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "garage",
+            "adjetivos": []
+          }
+        ]
+      },
+      {
+        "accion": "tomar",
+        "objetos": [
+          {
+            "nombre": "escalera",
+            "adjetivos": [
+              "pequeña"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": []
+      },
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "escalera",
+            "adjetivos": [
+              "pequeña"
+            ]
+          }
+        ],
+        "personas": [
+          {
+            "nombre": "papá",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a ir al garage, tomar la escalera pequeña y llevar la escalera pequeña a papá",
+    "metricas": {
+      "latencia_s": 17.132,
+      "s2t_s": 1.858,
+      "llm_s": 15.118,
+      "tts_s": 0.156,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O035.wav"
+    }
+  },
+  {
+    "archivo": "O036.wav",
+    "transcripcion": "Llevo el café negro a la sala de reuniones. Salúa a los visitantes y cierra la puerta.",
+    "acciones": [
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "café",
+            "adjetivos": [
+              "negro"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "sala de reuniones",
+            "adjetivos": []
+          }
+        ]
+      },
+      {
+        "accion": "saludar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "visitantes",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      },
+      {
+        "accion": "cerrar",
+        "objetos": [],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "puerta",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a llevar el café negro a la sala de reuniones, saludar a los visitantes y cerrar en la puerta",
+    "metricas": {
+      "latencia_s": 19.249,
+      "s2t_s": 2.285,
+      "llm_s": 16.567,
+      "tts_s": 0.396,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O036.wav"
+    }
+  },
+  {
+    "archivo": "O043.wav",
+    "transcripcion": "Oye, ¿me traes una cobija limpia del cuarto?",
+    "acciones": [
+      {
+        "accion": "llevar",
+        "objetos": [
+          {
+            "nombre": "cobija",
+            "adjetivos": [
+              "limpia"
+            ]
+          }
+        ],
+        "personas": [
+          {
+            "nombre": "abuela",
+            "adjetivos": []
+          }
+        ],
+        "lugares": [
+          {
+            "nombre": "cuarto",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a llevar la cobija limpia a la abuela al cuarto",
+    "metricas": {
+      "latencia_s": 10.361,
+      "s2t_s": 2.02,
+      "llm_s": 8.253,
+      "tts_s": 0.088,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O043.wav"
+    }
+  },
+  {
+    "archivo": "O044.wav",
+    "transcripcion": "y avísale a la señora Gómez que ya puede pasar",
+    "acciones": [
+      {
+        "accion": "avisar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "señora Gómez",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      },
+      {
+        "accion": "pasar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "señora Gómez",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a avisar a la señora Gómez y pasar a la señora Gómez",
+    "metricas": {
+      "latencia_s": 13.094,
+      "s2t_s": 1.88,
+      "llm_s": 11.053,
+      "tts_s": 0.161,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O044.wav"
+    }
+  },
+  {
+    "archivo": "O045.wav",
+    "transcripcion": "Uji y aurilo en Tana Grande, porfa.",
+    "acciones": [
+      {
+        "accion": "venir",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "Tana Grande",
+            "adjetivos": []
+          }
+        ],
+        "lugares": []
+      }
+    ],
+    "respuesta": "Voy a venir a Tana Grande",
+    "metricas": {
+      "latencia_s": 23.732,
+      "s2t_s": 2.091,
+      "llm_s": 21.568,
+      "tts_s": 0.073,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O045.wav"
+    }
+  },
+  {
+    "archivo": "O046.wav",
+    "transcripcion": "Mira, acompaña al cliente nuevo a la sala pequeña.",
+    "acciones": [
+      {
+        "accion": "mirar",
+        "objetos": [],
+        "personas": [],
+        "lugares": []
+      },
+      {
+        "accion": "acompañar",
+        "objetos": [],
+        "personas": [
+          {
+            "nombre": "cliente nuevo",
+            "adjetivos": []
+          }
+        ],
+        "lugares": [
+          {
+            "nombre": "sala",
+            "adjetivos": [
+              "pequeña"
+            ]
+          }
+        ]
+      }
+    ],
+    "respuesta": "Me falta información para mirar. ¿Puedes darme más detalles?",
+    "metricas": {
+      "latencia_s": 12.441,
+      "s2t_s": 2.128,
+      "llm_s": 10.155,
+      "tts_s": 0.157,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O046.wav"
+    }
+  },
+  {
+    "archivo": "O047.wav",
+    "transcripcion": "y por fargo en los platos sucios de la mesa",
+    "acciones": [
+      {
+        "accion": "limpiar",
+        "objetos": [
+          {
+            "nombre": "platos",
+            "adjetivos": [
+              "sucios"
+            ]
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "mesa",
+            "adjetivos": []
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a limpiar los platos sucios en la mesa",
+    "metricas": {
+      "latencia_s": 9.265,
+      "s2t_s": 2.071,
+      "llm_s": 7.107,
+      "tts_s": 0.088,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O047.wav"
+    }
+  },
+  {
+    "archivo": "O048.wav",
+    "transcripcion": "oiga porfa me guarda esos documentos en la oficina grande",
+    "acciones": [
+      {
+        "accion": "guardar",
+        "objetos": [
+          {
+            "nombre": "documentos",
+            "adjetivos": []
+          }
+        ],
+        "personas": [],
+        "lugares": [
+          {
+            "nombre": "oficina",
+            "adjetivos": [
+              "grande"
+            ]
+          }
+        ]
+      }
+    ],
+    "respuesta": "Voy a guardar los documentos en la oficina grande",
+    "metricas": {
+      "latencia_s": 9.121,
+      "s2t_s": 2.114,
+      "llm_s": 6.916,
+      "tts_s": 0.092,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O048.wav"
+    }
+  },
+  {
+    "archivo": "O055.wav",
+    "transcripcion": "¡Ahorilo!",
+    "acciones": [],
+    "respuesta": "No entendí ninguna orden.",
+    "metricas": {
+      "latencia_s": 2.571,
+      "s2t_s": 1.693,
+      "llm_s": 0.825,
+      "tts_s": 0.053,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O055.wav"
+    }
+  },
+  {
+    "archivo": "O056.wav",
+    "transcripcion": "¡Qué día tan largo!",
+    "acciones": [],
+    "respuesta": "No entendí ninguna orden.",
+    "metricas": {
+      "latencia_s": 2.875,
+      "s2t_s": 1.849,
+      "llm_s": 0.915,
+      "tts_s": 0.111,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O056.wav"
+    }
+  },
+  {
+    "archivo": "O057.wav",
+    "transcripcion": "¡Gracias a todos!",
+    "acciones": [],
+    "respuesta": "No entendí ninguna orden.",
+    "metricas": {
+      "latencia_s": 3.397,
+      "s2t_s": 2.216,
+      "llm_s": 1.126,
+      "tts_s": 0.055,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O057.wav"
+    }
+  },
+  {
+    "archivo": "O058.wav",
+    "transcripcion": "y la censura está dañada otra vez",
+    "acciones": [],
+    "respuesta": "No entendí ninguna orden.",
+    "metricas": {
+      "latencia_s": 3.575,
+      "s2t_s": 2.296,
+      "llm_s": 1.199,
+      "tts_s": 0.08,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O058.wav"
+    }
+  },
+  {
+    "archivo": "O059.wav",
+    "transcripcion": "mañana llueve",
+    "acciones": [],
+    "respuesta": "No entendí ninguna orden.",
+    "metricas": {
+      "latencia_s": 4.083,
+      "s2t_s": 2.842,
+      "llm_s": 1.151,
+      "tts_s": 0.09,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O059.wav"
+    }
+  },
+  {
+    "archivo": "O060.wav",
+    "transcripcion": "avísale que ya vamos",
+    "acciones": [
+      {
+        "accion": "avisar",
+        "objetos": [],
+        "personas": [],
+        "lugares": []
+      }
+    ],
+    "respuesta": "¿A quién quieres que avise?",
+    "metricas": {
+      "latencia_s": 6.893,
+      "s2t_s": 2.163,
+      "llm_s": 4.638,
+      "tts_s": 0.092,
+      "json_valido": true,
+      "error": null,
+      "audio_respuesta": "respuestas_voz\\llama3.2-3b\\O060.wav"
+    }
+  }
+]

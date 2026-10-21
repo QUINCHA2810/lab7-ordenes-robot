@@ -1,0 +1,96 @@
+[
+  {
+    "modelo": "qwen2.5:1.5b",
+    "fewshot": true,
+    "solo_cpu": true,
+    "latencia_mediana_s": 2.657,
+    "json_valido_pct": 100.0,
+    "sin_avisos_pct": 90.0,
+    "ram_modelo_gb": 1.17,
+    "ram_procesos_ollama_gb": 0.04,
+    "detalle": [
+      {
+        "nivel": "1",
+        "orden": "Trae el vaso",
+        "salida": "{\"acciones\": [{\"accion\": \"traer\", \"objetos\": [{\"nombre\": \"vaso\", \"adjetivos\": []}], \"personas\": [], \"lugares\": []}]}",
+        "latencia_s": 2.398,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "1",
+        "orden": "Saluda al visitante",
+        "salida": "{\"acciones\": [{\"accion\": \"saludar\", \"objetos\": [], \"personas\": [{\"nombre\": \"visitante\", \"adjetivos\": []}], \"lugares\": []}]}",
+        "latencia_s": 2.199,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "2",
+        "orden": "Pon el libro azul sobre la mesa pequeña",
+        "salida": "{\"acciones\": [{\"accion\": \"poner\", \"objetos\": [{\"nombre\": \"libro\", \"adjetivos\": [\"azul\"]}], \"personas\": [], \"lugares\": [{\"nombre\": \"mesa\", \"adjetivos\": [\"pequeña\"]}]}]}",
+        "latencia_s": 3.211,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "2",
+        "orden": "Lleva el paquete grande a la oficina principal",
+        "salida": "{\"acciones\": [{\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"paquete\", \"adjetivos\": [\"grande\"]}], \"personas\": [], \"lugares\": [{\"nombre\": \"oficina principal\", \"adjetivos\": []}]}]}",
+        "latencia_s": 2.927,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "3",
+        "orden": "Ve al cuarto, toma la cobija gris y tráesela a la abuela",
+        "salida": "{\"acciones\": [{\"accion\": \"ir\", \"objetos\": [], \"personas\": [], \"lugares\": [{\"nombre\": \"cuarto\", \"adjetivos\": []}]}, {\"accion\": \"tomar\", \"objetos\": [{\"nombre\": \"cobija\", \"adjetivos\": [\"gris\"]}], \"personas\": [], \"lugares\": []}, {\"accion\": \"llevar\", \"objetos\": [{\"nombre\": \"cobija\", \"adjetivos\": [\"gris\"]}], \"personas\": [{\"nombre\": \"abuela\", \"adjetivos\": []}], \"lugares\": []}]}",
+        "latencia_s": 6.557,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "3",
+        "orden": "Recibe a la señora Gómez, acompáñala a la sala de reuniones y avísale a Carlos",
+        "salida": "{\"acciones\": [{\"accion\": \"recibir\", \"objetos\": [{\"nombre\": \"señora Gómez\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"sala de reuniones\", \"adjetivos\": []}]}, {\"accion\": \"acompañar\", \"objetos\": [{\"nombre\": \"señora Gómez\", \"adjetivos\": []}], \"personas\": [], \"lugares\": []}, {\"accion\": \"avisar\", \"objetos\": [{\"nombre\": \"Carlos\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"sala de reuniones\", \"adjetivos\": []}]}]}",
+        "latencia_s": 7.654,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "4",
+        "orden": "oye porfa me alcanzas el celular que dejé en el cuarto",
+        "salida": "{\"acciones\": [{\"accion\": \"alcanzar\", \"objetos\": [{\"nombre\": \"celular\", \"adjetivos\": []}], \"personas\": [], \"lugares\": [{\"nombre\": \"cuarto\", \"adjetivos\": []}]}]}",
+        "latencia_s": 2.766,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "4",
+        "orden": "eh mira dile al señor de la corbata roja que ya lo atienden",
+        "salida": "{\"acciones\": [{\"accion\": \"decir\", \"objetos\": [{\"nombre\": \"señor\", \"adjetivos\": [\"de la corbata roja\"]}], \"personas\": [], \"lugares\": []}]}",
+        "latencia_s": 2.548,
+        "json_valido": true,
+        "avisos": []
+      },
+      {
+        "nivel": "5",
+        "orden": "Tráeme eso",
+        "salida": "{\"acciones\": [{\"accion\": \"traer\", \"objetos\": [{\"nombre\": \"eso\", \"adjetivos\": []}], \"personas\": [], \"lugares\": []}]}",
+        "latencia_s": 2.013,
+        "json_valido": true,
+        "avisos": [
+          "pronombre 'eso' anotado como entidad"
+        ]
+      },
+      {
+        "nivel": "5",
+        "orden": "Qué demora la de hoy",
+        "salida": "{\"acciones\": [{\"accion\": \"demorar\", \"objetos\": [], \"personas\": [], \"lugares\": []}]}",
+        "latencia_s": 1.484,
+        "json_valido": true,
+        "avisos": []
+      }
+    ]
+  }
+]

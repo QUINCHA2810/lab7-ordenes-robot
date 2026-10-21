@@ -1,0 +1,354 @@
+{
+ "llms": [
+  {
+   "modelo": "qwen2.5:1.5b",
+   "f1": 0.702,
+   "estructura": 0.544,
+   "robustez": 0.58,
+   "json": 100.0,
+   "exactas": 36.7,
+   "latencia": 3.631,
+   "ram": 1.17,
+   "tamano": 0.99,
+   "params": "1.5B",
+   "f1_cat": {
+    "accion": 0.813,
+    "persona": 0.69,
+    "objeto": 0.769,
+    "adjetivo": 0.691,
+    "lugar": 0.545
+   },
+   "por_nivel": {
+    "1": "4/6",
+    "2": "3/6",
+    "3": "1/6",
+    "4": "1/6",
+    "5": "2/6"
+   }
+  },
+  {
+   "modelo": "qwen2.5:3b",
+   "f1": 0.812,
+   "estructura": 0.771,
+   "robustez": 0.737,
+   "json": 100.0,
+   "exactas": 56.7,
+   "latencia": 6.74,
+   "ram": 2.17,
+   "tamano": 1.9,
+   "params": "3.1B",
+   "f1_cat": {
+    "accion": 0.905,
+    "persona": 0.609,
+    "objeto": 0.87,
+    "adjetivo": 0.877,
+    "lugar": 0.8
+   },
+   "por_nivel": {
+    "1": "3/6",
+    "2": "4/6",
+    "3": "2/6",
+    "4": "3/6",
+    "5": "5/6"
+   }
+  },
+  {
+   "modelo": "gemma2:2b",
+   "f1": 0.818,
+   "estructura": 0.691,
+   "robustez": 0.651,
+   "json": 100.0,
+   "exactas": 50.0,
+   "latencia": 11.485,
+   "ram": 1.93,
+   "tamano": 1.6,
+   "params": "2.6B",
+   "f1_cat": {
+    "accion": 0.925,
+    "persona": 0.692,
+    "objeto": 0.864,
+    "adjetivo": 0.857,
+    "lugar": 0.75
+   },
+   "por_nivel": {
+    "1": "4/6",
+    "2": "4/6",
+    "3": "1/6",
+    "4": "3/6",
+    "5": "3/6"
+   }
+  },
+  {
+   "modelo": "llama3.2:3b",
+   "f1": 0.873,
+   "estructura": 0.745,
+   "robustez": 0.749,
+   "json": 100.0,
+   "exactas": 63.3,
+   "latencia": 7.161,
+   "ram": 2.57,
+   "tamano": 2.0,
+   "params": "3.2B",
+   "f1_cat": {
+    "accion": 0.864,
+    "persona": 0.786,
+    "objeto": 0.894,
+    "adjetivo": 0.906,
+    "lugar": 0.914
+   },
+   "por_nivel": {
+    "1": "5/6",
+    "2": "2/6",
+    "3": "3/6",
+    "4": "4/6",
+    "5": "5/6"
+   }
+  }
+ ],
+ "f1_por_nivel": {
+  "qwen2.5:1.5b": {
+   "1": 0.733,
+   "2": 0.626,
+   "3": 0.735,
+   "4": 0.615,
+   "5": 0.55
+  },
+  "qwen2.5:3b": {
+   "1": 0.705,
+   "2": 0.697,
+   "3": 0.868,
+   "4": 0.745,
+   "5": 0.8
+  },
+  "gemma2:2b": {
+   "1": 0.733,
+   "2": 0.778,
+   "3": 0.874,
+   "4": 0.689,
+   "5": 0.571
+  },
+  "llama3.2:3b": {
+   "1": 0.771,
+   "2": 0.685,
+   "3": 0.942,
+   "4": 0.767,
+   "5": 0.6
+  }
+ },
+ "ablacion": [
+  {
+   "modelo": "qwen2.5:1.5b v1",
+   "f1": 0.523,
+   "estructura": 0.386,
+   "robustez": 0.382,
+   "json": 100.0,
+   "exactas": 26.7,
+   "latencia": 3.41,
+   "ram": 1.17,
+   "tamano": 0.99,
+   "params": "1.5B",
+   "f1_cat": {
+    "accion": 0.766,
+    "persona": 0.231,
+    "objeto": 0.618,
+    "adjetivo": 0.531,
+    "lugar": 0.471
+   },
+   "por_nivel": {
+    "1": "5/6",
+    "2": "1/6",
+    "3": "1/6",
+    "4": "0/6",
+    "5": "1/6"
+   }
+  },
+  {
+   "modelo": "qwen2.5:1.5b v2 sin post",
+   "f1": 0.655,
+   "estructura": 0.514,
+   "robustez": 0.485,
+   "json": 100.0,
+   "exactas": 36.7,
+   "latencia": 3.631,
+   "ram": 1.17,
+   "tamano": 0.99,
+   "params": "1.5B",
+   "f1_cat": {
+    "accion": 0.796,
+    "persona": 0.593,
+    "objeto": 0.714,
+    "adjetivo": 0.644,
+    "lugar": 0.526
+   },
+   "por_nivel": {
+    "1": "4/6",
+    "2": "3/6",
+    "3": "1/6",
+    "4": "1/6",
+    "5": "2/6"
+   }
+  },
+  {
+   "modelo": "qwen2.5:1.5b v2 + post",
+   "f1": 0.702,
+   "estructura": 0.544,
+   "robustez": 0.58,
+   "json": 100.0,
+   "exactas": 36.7,
+   "latencia": 3.631,
+   "ram": 1.17,
+   "tamano": 0.99,
+   "params": "1.5B",
+   "f1_cat": {
+    "accion": 0.813,
+    "persona": 0.69,
+    "objeto": 0.769,
+    "adjetivo": 0.691,
+    "lugar": 0.545
+   },
+   "por_nivel": {
+    "1": "4/6",
+    "2": "3/6",
+    "3": "1/6",
+    "4": "1/6",
+    "5": "2/6"
+   }
+  }
+ ],
+ "voz": [
+  {
+   "motor": "whisper-tiny",
+   "wer": 41.0,
+   "latencia": 0.267,
+   "rtf": 0.075,
+   "n": 30
+  },
+  {
+   "motor": "whisper-base",
+   "wer": 31.1,
+   "latencia": 0.522,
+   "rtf": 0.133,
+   "n": 30
+  },
+  {
+   "motor": "whisper-small",
+   "wer": 13.2,
+   "latencia": 1.788,
+   "rtf": 0.413,
+   "n": 30
+  },
+  {
+   "motor": "vosk",
+   "wer": 24.5,
+   "latencia": 0.339,
+   "rtf": 0.086,
+   "n": 30
+  }
+ ],
+ "voz_archivo": "eval_voz_audios_20261021_094337.json",
+ "voz_beam5": [
+  {
+   "motor": "whisper-small",
+   "wer": 12.7,
+   "latencia": 1.665,
+   "rtf": 0.392,
+   "n": 30
+  },
+  {
+   "motor": "whisper-base",
+   "wer": 25.5,
+   "latencia": 0.529,
+   "rtf": 0.134,
+   "n": 30
+  }
+ ],
+ "e2e": [
+  {
+   "config": "qwen2.5:1.5b + whisper-small",
+   "archivo": "e2e_qwen2.5-1.5b_whisper-small_20261021_095148.json",
+   "wer": 12.7,
+   "f1_audio": 0.635,
+   "f1_texto": 0.702,
+   "estr_audio": 0.478,
+   "rob_audio": 0.4,
+   "rob_texto": 0.58,
+   "json_audio": 100.0,
+   "latencia": 4.955,
+   "lat_max": 17.497,
+   "ram_total": 2.04,
+   "ram_llm": 1.17,
+   "ram_python": 0.86,
+   "lat_s2t": 1.804,
+   "lat_llm": 3.096,
+   "lat_tts": 0.071,
+   "rubrica": {
+    "F1 (25)": 5.0,
+    "Estructura (10)": 2.0,
+    "Robustez (10)": 2.0,
+    "JSON (5)": 5.0,
+    "WER (10)": 6.0,
+    "Latencia (15)": 9.0,
+    "Memoria (5)": 5.0,
+    "Total (de 80)": 34.0
+   }
+  },
+  {
+   "config": "qwen2.5:3b + whisper-small",
+   "archivo": "e2e_qwen2.5-3b_whisper-small_20261021_100057.json",
+   "wer": 12.7,
+   "f1_audio": 0.788,
+   "f1_texto": 0.812,
+   "estr_audio": 0.706,
+   "rob_audio": 0.671,
+   "rob_texto": 0.737,
+   "json_audio": 100.0,
+   "latencia": 7.524,
+   "lat_max": 29.241,
+   "ram_total": 2.91,
+   "ram_llm": 2.17,
+   "ram_python": 0.75,
+   "lat_s2t": 2.001,
+   "lat_llm": 5.688,
+   "lat_tts": 0.115,
+   "rubrica": {
+    "F1 (25)": 15.0,
+    "Estructura (10)": 2.0,
+    "Robustez (10)": 6.0,
+    "JSON (5)": 5.0,
+    "WER (10)": 6.0,
+    "Latencia (15)": 6.0,
+    "Memoria (5)": 5.0,
+    "Total (de 80)": 45.0
+   }
+  },
+  {
+   "config": "llama3.2:3b + whisper-small",
+   "archivo": "e2e_llama3.2-3b_whisper-small_20261021_103910.json",
+   "wer": 12.7,
+   "f1_audio": 0.825,
+   "f1_texto": 0.873,
+   "estr_audio": 0.648,
+   "rob_audio": 0.677,
+   "rob_texto": 0.749,
+   "json_audio": 100.0,
+   "latencia": 8.969,
+   "lat_max": 23.732,
+   "ram_total": 3.31,
+   "ram_llm": 2.57,
+   "ram_python": 0.75,
+   "lat_s2t": 1.946,
+   "lat_llm": 6.891,
+   "lat_tts": 0.089,
+   "rubrica": {
+    "F1 (25)": 15.0,
+    "Estructura (10)": 2.0,
+    "Robustez (10)": 6.0,
+    "JSON (5)": 5.0,
+    "WER (10)": 6.0,
+    "Latencia (15)": 3.0,
+    "Memoria (5)": 3.0,
+    "Total (de 80)": 40.0
+   }
+  }
+ ]
+}

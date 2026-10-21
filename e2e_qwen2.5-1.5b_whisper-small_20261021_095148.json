@@ -1,0 +1,3055 @@
+{
+ "n": 30,
+ "wer_pct": 12.7,
+ "con_transcripcion": {
+  "n": 30,
+  "f1_categorias": {
+   "accion": 0.71,
+   "persona": 0.667,
+   "objeto": 0.643,
+   "adjetivo": 0.607,
+   "lugar": 0.549
+  },
+  "f1_promedio": 0.635,
+  "estructura_f1": 0.478,
+  "robustez_f1": 0.4,
+  "json_valido_pct": 100.0,
+  "exactas_pct": 23.3,
+  "exactas_por_nivel": {
+   "1": "5/6",
+   "2": "1/6",
+   "3": "0/6",
+   "4": "0/6",
+   "5": "1/6"
+  }
+ },
+ "con_texto_correcto": {
+  "n": 30,
+  "f1_categorias": {
+   "accion": 0.813,
+   "persona": 0.69,
+   "objeto": 0.769,
+   "adjetivo": 0.691,
+   "lugar": 0.545
+  },
+  "f1_promedio": 0.702,
+  "estructura_f1": 0.544,
+  "robustez_f1": 0.58,
+  "json_valido_pct": 100.0,
+  "exactas_pct": 36.7,
+  "exactas_por_nivel": {
+   "1": "4/6",
+   "2": "3/6",
+   "3": "1/6",
+   "4": "1/6",
+   "5": "2/6"
+  }
+ },
+ "detalle_texto_correcto": [
+  {
+   "id": "O007",
+   "nivel": "1",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "cerrar",
+      "objetos": [
+       {
+        "nombre": "ventana",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "cerrar",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "ventana",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O008",
+   "nivel": "1",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "atender",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "cliente",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "atender",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "cliente",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O009",
+   "nivel": "1",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "encender",
+      "objetos": [
+       {
+        "nombre": "televisor",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "encender",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "televisor",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O010",
+   "nivel": "1",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "anunciar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Camila",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "anunciar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Camila",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O011",
+   "nivel": "1",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [
+       {
+        "nombre": "control",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [
+       {
+        "nombre": "control",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O012",
+   "nivel": "1",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "entregar",
+      "objetos": [
+       {
+        "nombre": "carta",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "entregar",
+      "objetos": [
+       {
+        "nombre": "carta",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O019",
+   "nivel": "2",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "sopa",
+        "adjetivos": [
+         "caliente"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "sopa",
+        "adjetivos": [
+         "caliente"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O020",
+   "nivel": "2",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "frío"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "frío"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "frío"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "frío"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O021",
+   "nivel": "2",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "ropa",
+        "adjetivos": [
+         "limpia"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "armario",
+        "adjetivos": [
+         "viejo"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "ropa",
+        "adjetivos": [
+         "limpia"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "armario",
+        "adjetivos": [
+         "viejo"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O022",
+   "nivel": "2",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "bolsa",
+        "adjetivos": [
+         "roja"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "recepción",
+        "adjetivos": [
+         "principal"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "bolsa",
+        "adjetivos": [
+         "roja"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "recepción principal",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O023",
+   "nivel": "2",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "gris"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sofá",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "gris"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sofa",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O024",
+   "nivel": "2",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor",
+        "adjetivos": [
+         "alto"
+        ]
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "pasillo",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor alto",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "pasillo",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O031",
+   "nivel": "3",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "recoger",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": [
+         "sucios"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": [
+         "sucios"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cocina",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "recoger",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": []
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "señor",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "cocina",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O032",
+   "nivel": "3",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "recibir",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "ofrecer",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "caliente"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "recebir",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "ofrecer",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "caliente"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "caliente"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "llevar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señor Rojas",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O033",
+   "nivel": "3",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "tomar",
+      "objetos": [
+       {
+        "nombre": "manta",
+        "adjetivos": [
+         "verde"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "manta",
+        "adjetivos": [
+         "verde"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sofá",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "apagar",
+      "objetos": [
+       {
+        "nombre": "luz",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "tomar",
+      "objetos": [
+       {
+        "nombre": "manta",
+        "adjetivos": [
+         "verde"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "poner",
+      "objetos": [
+       {
+        "nombre": "manta",
+        "adjetivos": [
+         "verde"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sofá",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "apagar",
+      "objetos": [
+       {
+        "nombre": "luz",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O034",
+   "nivel": "3",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Daniela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "entregar",
+      "objetos": [
+       {
+        "nombre": "carpeta",
+        "adjetivos": [
+         "azul"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "Daniela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Sergio",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "buscar",
+      "objetos": [
+       {
+        "nombre": "cara",
+        "adjetivos": []
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "Daniela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "entregar",
+      "objetos": [
+       {
+        "nombre": "cara",
+        "adjetivos": []
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "Daniela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "avisar",
+      "objetos": [
+       {
+        "nombre": "cara",
+        "adjetivos": []
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "Sergio",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "llamar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Daniela",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "llamar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "Sergio",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O035",
+   "nivel": "3",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "garaje",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "escalera",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "escalera",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "papá",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "garaje",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "tomar",
+      "objetos": [
+       {
+        "nombre": "escalera",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "escalera",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ],
+      "personas": [
+       {
+        "nombre": "papá",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O036",
+   "nivel": "3",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "negro"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala de reuniones",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "saludar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "visitantes",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     },
+     {
+      "accion": "cerrar",
+      "objetos": [
+       {
+        "nombre": "puerta",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [
+       {
+        "nombre": "café",
+        "adjetivos": [
+         "negro"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala de reuniones",
+        "adjetivos": []
+       }
+      ]
+     },
+     {
+      "accion": "saludar",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     },
+     {
+      "accion": "cerrar",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "puerta",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O043",
+   "nivel": "4",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "limpia"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cuarto",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "traer",
+      "objetos": [
+       {
+        "nombre": "cobija",
+        "adjetivos": [
+         "larga"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "cuarto",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O044",
+   "nivel": "4",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señora Gómez",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señora Gómez",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O045",
+   "nivel": "4",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "abrir",
+      "objetos": [
+       {
+        "nombre": "ventana",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "abrir",
+      "objetos": [
+       {
+        "nombre": "ventana",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "ventana",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O046",
+   "nivel": "4",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "cliente",
+        "adjetivos": [
+         "nuevo"
+        ]
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "mirar",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": [
+         "pequeña"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "acompañar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "cliente nuevo",
+        "adjetivos": []
+       }
+      ],
+      "lugares": [
+       {
+        "nombre": "sala",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O047",
+   "nivel": "4",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "recoger",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": [
+         "sucios"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "recoger",
+      "objetos": [
+       {
+        "nombre": "platos",
+        "adjetivos": [
+         "sucios"
+        ]
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mesa",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O048",
+   "nivel": "4",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "documentos",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "documentos",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "documentos",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "ir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     },
+     {
+      "accion": "guardar",
+      "objetos": [
+       {
+        "nombre": "documentos",
+        "adjetivos": []
+       }
+      ],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "oficina",
+        "adjetivos": [
+         "grande"
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O055",
+   "nivel": "5",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "abrir",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "abrir",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   }
+  },
+  {
+   "id": "O056",
+   "nivel": "5",
+   "gold": {
+    "acciones": []
+   },
+   "pred": {
+    "acciones": []
+   }
+  },
+  {
+   "id": "O057",
+   "nivel": "5",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "llevar",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "allá",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O058",
+   "nivel": "5",
+   "gold": {
+    "acciones": []
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "reparar",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "ascensor",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O059",
+   "nivel": "5",
+   "gold": {
+    "acciones": []
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "predecir",
+      "objetos": [],
+      "personas": [],
+      "lugares": [
+       {
+        "nombre": "mañana",
+        "adjetivos": []
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "O060",
+   "nivel": "5",
+   "gold": {
+    "acciones": [
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [],
+      "lugares": []
+     }
+    ]
+   },
+   "pred": {
+    "acciones": [
+     {
+      "accion": "avisar",
+      "objetos": [],
+      "personas": [
+       {
+        "nombre": "señora Ruiz",
+        "adjetivos": []
+       }
+      ],
+      "lugares": []
+     }
+    ]
+   }
+  }
+ ],
+ "config": {
+  "llm": "qwen2.5:1.5b",
+  "whisper": "small",
+  "beam": 5,
+  "version": "v2",
+  "postproceso": true,
+  "entrada": "audios/"
+ },
+ "latencia_mediana_s": 4.955,
+ "latencia_max_s": 17.497,
+ "ram_python_whisper_gb": 0.86,
+ "ram_llm_gb": 1.17,
+ "ram_total_gb": 2.04,
+ "predicciones": [
+  {
+   "archivo": "O007.wav",
+   "transcripcion": "Cierra la ventana.",
+   "acciones": [
+    {
+     "accion": "cerrar",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "ventana",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a cerrar en la ventana",
+   "metricas": {
+    "latencia_s": 4.266,
+    "s2t_s": 1.887,
+    "llm_s": 2.325,
+    "tts_s": 0.053,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O007.wav"
+   },
+   "referencia": "Cierra la ventana"
+  },
+  {
+   "archivo": "O008.wav",
+   "transcripcion": "Atiende al cliente.",
+   "acciones": [
+    {
+     "accion": "atender",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "cliente",
+       "adjetivos": []
+      }
+     ],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a atender al cliente",
+   "metricas": {
+    "latencia_s": 4.093,
+    "s2t_s": 1.888,
+    "llm_s": 2.153,
+    "tts_s": 0.052,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O008.wav"
+   },
+   "referencia": "Atiende al cliente"
+  },
+  {
+   "archivo": "O009.wav",
+   "transcripcion": "Enciende el televisor.",
+   "acciones": [
+    {
+     "accion": "encender",
+     "objetos": [
+      {
+       "nombre": "televisor",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a encender el televisor",
+   "metricas": {
+    "latencia_s": 4.044,
+    "s2t_s": 1.802,
+    "llm_s": 2.188,
+    "tts_s": 0.054,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O009.wav"
+   },
+   "referencia": "Enciende el televisor"
+  },
+  {
+   "archivo": "O010.wav",
+   "transcripcion": "Anuncia a Camila",
+   "acciones": [
+    {
+     "accion": "anunciar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "Camila",
+       "adjetivos": []
+      }
+     ],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a anunciar a Camila",
+   "metricas": {
+    "latencia_s": 4.06,
+    "s2t_s": 1.764,
+    "llm_s": 2.249,
+    "tts_s": 0.046,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O010.wav"
+   },
+   "referencia": "Anuncia a Camila"
+  },
+  {
+   "archivo": "O011.wav",
+   "transcripcion": "Busca el control.",
+   "acciones": [
+    {
+     "accion": "buscar",
+     "objetos": [
+      {
+       "nombre": "control",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a buscar el control",
+   "metricas": {
+    "latencia_s": 3.882,
+    "s2t_s": 1.764,
+    "llm_s": 2.073,
+    "tts_s": 0.046,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O011.wav"
+   },
+   "referencia": "Busca el control"
+  },
+  {
+   "archivo": "O012.wav",
+   "transcripcion": "Entrega la carta.",
+   "acciones": [
+    {
+     "accion": "entregar",
+     "objetos": [
+      {
+       "nombre": "carta",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a entregar la carta",
+   "metricas": {
+    "latencia_s": 3.862,
+    "s2t_s": 1.63,
+    "llm_s": 2.192,
+    "tts_s": 0.04,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O012.wav"
+   },
+   "referencia": "Entrega la carta"
+  },
+  {
+   "archivo": "O019.wav",
+   "transcripcion": "Pon la sopa caliente sobre la mesa grande.",
+   "acciones": [
+    {
+     "accion": "poner",
+     "objetos": [
+      {
+       "nombre": "sopa",
+       "adjetivos": [
+        "caliente"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "mesa",
+       "adjetivos": [
+        "grande"
+       ]
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a poner la sopa caliente en la mesa grande",
+   "metricas": {
+    "latencia_s": 4.862,
+    "s2t_s": 1.669,
+    "llm_s": 3.116,
+    "tts_s": 0.078,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O019.wav"
+   },
+   "referencia": "Pon la sopa caliente sobre la mesa grande"
+  },
+  {
+   "archivo": "O020.wav",
+   "transcripcion": "Tráe el café frío a la sala pequeña.",
+   "acciones": [
+    {
+     "accion": "traer",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": [
+        "frío"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "poner",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": [
+        "frío"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "llevar",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": [
+        "frío"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "poner",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": [
+        "frío"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "llevar",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": [
+        "frío"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a traer el café frío a la sala pequeña, poner el café frío en la sala pequeña, llevar el café frío a la sala pequeña, poner el café frío en la sala pequeña y llevar el café frío a la sala pequeña",
+   "metricas": {
+    "latencia_s": 17.497,
+    "s2t_s": 1.702,
+    "llm_s": 15.268,
+    "tts_s": 0.527,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O020.wav"
+   },
+   "referencia": "Trae el café frío a la sala pequeña"
+  },
+  {
+   "archivo": "O021.wav",
+   "transcripcion": "Guarda la ropa limpia en el armario viejo.",
+   "acciones": [
+    {
+     "accion": "guardar",
+     "objetos": [
+      {
+       "nombre": "ropa",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "armario",
+       "adjetivos": [
+        "viejo"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "limpiar",
+     "objetos": [
+      {
+       "nombre": "ropa",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a guardar la ropa en el armario viejo y limpiar la ropa",
+   "metricas": {
+    "latencia_s": 6.761,
+    "s2t_s": 1.819,
+    "llm_s": 4.825,
+    "tts_s": 0.117,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O021.wav"
+   },
+   "referencia": "Guarda la ropa limpia en el armario viejo"
+  },
+  {
+   "archivo": "O022.wav",
+   "transcripcion": "Lleva la bolsa roja a la recepción principal.",
+   "acciones": [
+    {
+     "accion": "llevar",
+     "objetos": [
+      {
+       "nombre": "bolsa",
+       "adjetivos": [
+        "roja"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "recepción principal",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a llevar la bolsa roja a la recepción principal",
+   "metricas": {
+    "latencia_s": 5.07,
+    "s2t_s": 1.81,
+    "llm_s": 3.16,
+    "tts_s": 0.1,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O022.wav"
+   },
+   "referencia": "Lleva la bolsa roja a la recepción principal"
+  },
+  {
+   "archivo": "O023.wav",
+   "transcripcion": "Trae la coija gris al sofá.",
+   "acciones": [
+    {
+     "accion": "traer",
+     "objetos": [
+      {
+       "nombre": "coija",
+       "adjetivos": [
+        "gris"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sofa",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a traer la coija gris a la sofa",
+   "metricas": {
+    "latencia_s": 4.783,
+    "s2t_s": 1.702,
+    "llm_s": 3.012,
+    "tts_s": 0.07,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O023.wav"
+   },
+   "referencia": "Trae la cobija gris al sofá"
+  },
+  {
+   "archivo": "O024.wav",
+   "transcripcion": "Busca al Señor alto en el pasillo.",
+   "acciones": [
+    {
+     "accion": "buscar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "Señor alto",
+       "adjetivos": []
+      }
+     ],
+     "lugares": [
+      {
+       "nombre": "pasillo",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a buscar a Señor alto en el pasillo",
+   "metricas": {
+    "latencia_s": 4.695,
+    "s2t_s": 1.698,
+    "llm_s": 2.929,
+    "tts_s": 0.068,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O024.wav"
+   },
+   "referencia": "Busca al señor alto en el pasillo"
+  },
+  {
+   "archivo": "O031.wav",
+   "transcripcion": "Ve a la sala, recuele los platos sucios y llevarlos a la cocina.",
+   "acciones": [
+    {
+     "accion": "ir",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "recoger",
+     "objetos": [
+      {
+       "nombre": "platos",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    },
+    {
+     "accion": "llevar",
+     "objetos": [
+      {
+       "nombre": "platos",
+       "adjetivos": []
+      }
+     ],
+     "personas": [
+      {
+       "nombre": "señor",
+       "adjetivos": []
+      }
+     ],
+     "lugares": [
+      {
+       "nombre": "cocina",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a ir a la sala, recoger los platos y llevar los platos al señor a la cocina",
+   "metricas": {
+    "latencia_s": 9.598,
+    "s2t_s": 1.921,
+    "llm_s": 7.526,
+    "tts_s": 0.151,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O031.wav"
+   },
+   "referencia": "Ve a la sala, recoge los platos sucios y llévalos a la cocina"
+  },
+  {
+   "archivo": "O032.wav",
+   "transcripcion": "Recibe al señor Rojas, ofrecele un café caliente y acompáñalo a la oficina grande.",
+   "acciones": [
+    {
+     "accion": "recebir",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "señor Rojas",
+       "adjetivos": []
+      }
+     ],
+     "lugares": [
+      {
+       "nombre": "oficina",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "ofrecer",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": [
+        "caliente"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    },
+    {
+     "accion": "acompañar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "señor Rojas",
+       "adjetivos": []
+      }
+     ],
+     "lugares": [
+      {
+       "nombre": "oficina",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a recebir al señor Rojas en la oficina, ofrecer el café caliente y acompañar al señor Rojas a la oficina",
+   "metricas": {
+    "latencia_s": 10.306,
+    "s2t_s": 2.127,
+    "llm_s": 7.943,
+    "tts_s": 0.236,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O032.wav"
+   },
+   "referencia": "Recibe al señor Rojas, ofrécele un café caliente y acompáñalo a la oficina grande"
+  },
+  {
+   "archivo": "O033.wav",
+   "transcripcion": "Toma la amanta verde, ponla en el sofá y apaga la luz.",
+   "acciones": [
+    {
+     "accion": "tomar",
+     "objetos": [
+      {
+       "nombre": "amanta",
+       "adjetivos": [
+        "verde"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    },
+    {
+     "accion": "poner",
+     "objetos": [
+      {
+       "nombre": "amanta",
+       "adjetivos": [
+        "verde"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sofá",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "apagar",
+     "objetos": [
+      {
+       "nombre": "luz",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a tomar la amanta verde, poner la amanta verde en el sofá y apagar la luz",
+   "metricas": {
+    "latencia_s": 9.095,
+    "s2t_s": 1.926,
+    "llm_s": 7.033,
+    "tts_s": 0.135,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O033.wav"
+   },
+   "referencia": "Toma la manta verde, ponla en el sofá y apaga la luz"
+  },
+  {
+   "archivo": "O034.wav",
+   "transcripcion": "Busca Daniela, entregale la carpeta azul y avísale a Sergio.",
+   "acciones": [
+    {
+     "accion": "buscar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "Daniela",
+       "adjetivos": []
+      }
+     ],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "entregar",
+     "objetos": [
+      {
+       "nombre": "carpeta",
+       "adjetivos": [
+        "azul"
+       ]
+      }
+     ],
+     "personas": [
+      {
+       "nombre": "Daniela",
+       "adjetivos": []
+      }
+     ],
+     "lugares": []
+    },
+    {
+     "accion": "avisar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "Sergio",
+       "adjetivos": []
+      }
+     ],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a buscar a Daniela en la sala, entregar la carpeta azul a Daniela y avisar a Sergio",
+   "metricas": {
+    "latencia_s": 9.651,
+    "s2t_s": 1.91,
+    "llm_s": 7.575,
+    "tts_s": 0.167,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O034.wav"
+   },
+   "referencia": "Busca a Daniela, entrégale la carpeta azul y avísale a Sergio"
+  },
+  {
+   "archivo": "O035.wav",
+   "transcripcion": "Ve al garage, trae la escalera pequeña y llévasela a papá.",
+   "acciones": [
+    {
+     "accion": "ir",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "garage",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "tomar",
+     "objetos": [
+      {
+       "nombre": "escalera",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    },
+    {
+     "accion": "llevar",
+     "objetos": [
+      {
+       "nombre": "escalera",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ],
+     "personas": [
+      {
+       "nombre": "papá",
+       "adjetivos": []
+      }
+     ],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a ir al garage, tomar la escalera pequeña y llevar la escalera pequeña a papá",
+   "metricas": {
+    "latencia_s": 9.076,
+    "s2t_s": 1.921,
+    "llm_s": 7.019,
+    "tts_s": 0.136,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O035.wav"
+   },
+   "referencia": "Ve al garaje, trae la escalera pequeña y llévasela a papá"
+  },
+  {
+   "archivo": "O036.wav",
+   "transcripcion": "Llevo el café negro a la sala de reuniones. Salúa a los visitantes y cierra la puerta.",
+   "acciones": [
+    {
+     "accion": "llevar",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": [
+        "negro"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala de reuniones",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "saludar",
+     "objetos": [],
+     "personas": [],
+     "lugares": []
+    },
+    {
+     "accion": "cerrar",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "puerta",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "¿A quién quieres que salude?",
+   "metricas": {
+    "latencia_s": 8.576,
+    "s2t_s": 2.065,
+    "llm_s": 6.458,
+    "tts_s": 0.052,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O036.wav"
+   },
+   "referencia": "Lleva el café negro a la sala de reuniones, saluda a los visitantes y cierra la puerta"
+  },
+  {
+   "archivo": "O043.wav",
+   "transcripcion": "Oye, ¿me traes una cobija limpia del cuarto?",
+   "acciones": [
+    {
+     "accion": "traer",
+     "objetos": [
+      {
+       "nombre": "cobija",
+       "adjetivos": [
+        "larga"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "cuarto",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a traer la cobija larga al cuarto",
+   "metricas": {
+    "latencia_s": 5.048,
+    "s2t_s": 1.903,
+    "llm_s": 3.075,
+    "tts_s": 0.071,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O043.wav"
+   },
+   "referencia": "oye me traes una cobija limpia del cuarto"
+  },
+  {
+   "archivo": "O044.wav",
+   "transcripcion": "y avísale a la señora Gómez que ya puede pasar",
+   "acciones": [
+    {
+     "accion": "avisar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "señora Gómez",
+       "adjetivos": []
+      }
+     ],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "pasar",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a avisar a la señora Gómez en la sala y pasar en la sala",
+   "metricas": {
+    "latencia_s": 6.934,
+    "s2t_s": 1.814,
+    "llm_s": 5.01,
+    "tts_s": 0.111,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O044.wav"
+   },
+   "referencia": "ey avísale a la señora Gómez que ya puede pasar"
+  },
+  {
+   "archivo": "O045.wav",
+   "transcripcion": "Uji y aurilo en Tana Grande, porfa.",
+   "acciones": [
+    {
+     "accion": "ejecutar",
+     "objetos": [
+      {
+       "nombre": "uji",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "Tana Grande",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "ejecutar",
+     "objetos": [
+      {
+       "nombre": "aurilo",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "Tana Grande",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a ejecutar el uji en Tana Grande y ejecutar el aurilo en Tana Grande",
+   "metricas": {
+    "latencia_s": 7.629,
+    "s2t_s": 1.801,
+    "llm_s": 5.681,
+    "tts_s": 0.147,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O045.wav"
+   },
+   "referencia": "oye abre la ventana grande porfa"
+  },
+  {
+   "archivo": "O046.wav",
+   "transcripcion": "Mira, acompaña al cliente nuevo a la sala pequeña.",
+   "acciones": [
+    {
+     "accion": "acompañar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "cliente nuevo",
+       "adjetivos": []
+      }
+     ],
+     "lugares": [
+      {
+       "nombre": "sala",
+       "adjetivos": [
+        "pequeña"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "mirar",
+     "objetos": [],
+     "personas": [],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Me falta información para mirar. ¿Puedes darme más detalles?",
+   "metricas": {
+    "latencia_s": 6.352,
+    "s2t_s": 1.856,
+    "llm_s": 4.384,
+    "tts_s": 0.112,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O046.wav"
+   },
+   "referencia": "mira acompaña al cliente nuevo a la sala pequeña"
+  },
+  {
+   "archivo": "O047.wav",
+   "transcripcion": "y por fargo en los platos sucios de la mesa",
+   "acciones": [
+    {
+     "accion": "ayudar",
+     "objetos": [
+      {
+       "nombre": "platos",
+       "adjetivos": [
+        "sucios"
+       ]
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "mesa",
+       "adjetivos": []
+      }
+     ]
+    },
+    {
+     "accion": "calentar",
+     "objetos": [
+      {
+       "nombre": "café",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "mesa",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a ayudar los platos sucios en la mesa y calentar el café en la mesa",
+   "metricas": {
+    "latencia_s": 7.641,
+    "s2t_s": 1.806,
+    "llm_s": 5.692,
+    "tts_s": 0.143,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O047.wav"
+   },
+   "referencia": "ey porfa recoge los platos sucios de la mesa"
+  },
+  {
+   "archivo": "O048.wav",
+   "transcripcion": "oiga porfa me guarda esos documentos en la oficina grande",
+   "acciones": [
+    {
+     "accion": "guardar",
+     "objetos": [
+      {
+       "nombre": "documentos",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "oficina",
+       "adjetivos": [
+        "grande"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "ir",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "oficina",
+       "adjetivos": [
+        "grande"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "guardar",
+     "objetos": [
+      {
+       "nombre": "documentos",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "oficina",
+       "adjetivos": [
+        "grande"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "ir",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "oficina",
+       "adjetivos": [
+        "grande"
+       ]
+      }
+     ]
+    },
+    {
+     "accion": "guardar",
+     "objetos": [
+      {
+       "nombre": "documentos",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "oficina",
+       "adjetivos": [
+        "grande"
+       ]
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a guardar los documentos en la oficina grande, ir a la oficina grande, guardar los documentos en la oficina grande, ir a la oficina grande y guardar los documentos en la oficina grande",
+   "metricas": {
+    "latencia_s": 14.962,
+    "s2t_s": 2.042,
+    "llm_s": 12.502,
+    "tts_s": 0.418,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O048.wav"
+   },
+   "referencia": "oiga porfa me guarda estos documentos en la oficina grande"
+  },
+  {
+   "archivo": "O055.wav",
+   "transcripcion": "¡Ahorilo!",
+   "acciones": [
+    {
+     "accion": "ir",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "ahí",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a ir al ahí",
+   "metricas": {
+    "latencia_s": 3.871,
+    "s2t_s": 1.661,
+    "llm_s": 2.169,
+    "tts_s": 0.041,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O055.wav"
+   },
+   "referencia": "Ábrelo"
+  },
+  {
+   "archivo": "O056.wav",
+   "transcripcion": "¡Qué día tan largo!",
+   "acciones": [],
+   "respuesta": "No entendí ninguna orden.",
+   "metricas": {
+    "latencia_s": 2.109,
+    "s2t_s": 1.674,
+    "llm_s": 0.384,
+    "tts_s": 0.051,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O056.wav"
+   },
+   "referencia": "Qué día tan largo"
+  },
+  {
+   "archivo": "O057.wav",
+   "transcripcion": "¡Gracias a todos!",
+   "acciones": [
+    {
+     "accion": "gracias",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "todos",
+       "adjetivos": []
+      }
+     ],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a gracias a los todos",
+   "metricas": {
+    "latencia_s": 3.867,
+    "s2t_s": 1.695,
+    "llm_s": 2.125,
+    "tts_s": 0.047,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O057.wav"
+   },
+   "referencia": "Llévalas allá"
+  },
+  {
+   "archivo": "O058.wav",
+   "transcripcion": "y la censura está dañada otra vez",
+   "acciones": [
+    {
+     "accion": "reparar",
+     "objetos": [
+      {
+       "nombre": "censura",
+       "adjetivos": []
+      }
+     ],
+     "personas": [],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a reparar la censura",
+   "metricas": {
+    "latencia_s": 4.087,
+    "s2t_s": 1.69,
+    "llm_s": 2.349,
+    "tts_s": 0.048,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O058.wav"
+   },
+   "referencia": "El ascensor está dañado otra vez"
+  },
+  {
+   "archivo": "O059.wav",
+   "transcripcion": "mañana llueve",
+   "acciones": [
+    {
+     "accion": "predecir",
+     "objetos": [],
+     "personas": [],
+     "lugares": [
+      {
+       "nombre": "mañana",
+       "adjetivos": []
+      }
+     ]
+    }
+   ],
+   "respuesta": "Voy a predecir en la mañana",
+   "metricas": {
+    "latencia_s": 3.877,
+    "s2t_s": 1.583,
+    "llm_s": 2.24,
+    "tts_s": 0.054,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O059.wav"
+   },
+   "referencia": "Mañana llueve"
+  },
+  {
+   "archivo": "O060.wav",
+   "transcripcion": "avísale que ya vamos",
+   "acciones": [
+    {
+     "accion": "avisar",
+     "objetos": [],
+     "personas": [
+      {
+       "nombre": "señora Ruiz",
+       "adjetivos": []
+      }
+     ],
+     "lugares": []
+    }
+   ],
+   "respuesta": "Voy a avisar a la señora Ruiz",
+   "metricas": {
+    "latencia_s": 3.987,
+    "s2t_s": 1.629,
+    "llm_s": 2.304,
+    "tts_s": 0.055,
+    "json_valido": true,
+    "error": null,
+    "audio_respuesta": "respuestas_voz\\qwen2.5-1.5b\\O060.wav"
+   },
+   "referencia": "Avísale que ya vamos"
+  }
+ ]
+}

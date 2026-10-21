@@ -1,0 +1,43 @@
+Cargando Whisper 'small' (CPU, int8)...
+Calentando el LLM 'qwen2.5:1.5b'...
+  1/30 O007.wav: 4.3 s | "Cierra la ventana." -> Voy a cerrar en la ventana
+  2/30 O008.wav: 4.1 s | "Atiende al cliente." -> Voy a atender al cliente
+  3/30 O009.wav: 4.0 s | "Enciende el televisor." -> Voy a encender el televisor
+  4/30 O010.wav: 4.1 s | "Anuncia a Camila" -> Voy a anunciar a Camila
+  5/30 O011.wav: 3.9 s | "Busca el control." -> Voy a buscar el control
+  6/30 O012.wav: 3.9 s | "Entrega la carta." -> Voy a entregar la carta
+  7/30 O019.wav: 4.9 s | "Pon la sopa caliente sobre la mesa grande." -> Voy a poner la sopa caliente en la mesa grande
+  8/30 O020.wav: 17.5 s | "Tráe el café frío a la sala pequeña." -> Voy a traer el café frío a la sala pequeña, poner el café frío en la sala pequeña, llevar el café frío a la sala pequeña, poner el café frío en la sala pequeña y llevar el café frío a la sala pequeña
+  9/30 O021.wav: 6.8 s | "Guarda la ropa limpia en el armario viejo." -> Voy a guardar la ropa en el armario viejo y limpiar la ropa
+  10/30 O022.wav: 5.1 s | "Lleva la bolsa roja a la recepción principal." -> Voy a llevar la bolsa roja a la recepción principal
+  11/30 O023.wav: 4.8 s | "Trae la coija gris al sofá." -> Voy a traer la coija gris a la sofa
+  12/30 O024.wav: 4.7 s | "Busca al Señor alto en el pasillo." -> Voy a buscar a Señor alto en el pasillo
+  13/30 O031.wav: 9.6 s | "Ve a la sala, recuele los platos sucios y llevarlos a la cocina." -> Voy a ir a la sala, recoger los platos y llevar los platos al señor a la cocina
+  14/30 O032.wav: 10.3 s | "Recibe al señor Rojas, ofrecele un café caliente y acompáñalo a la oficina grande." -> Voy a recebir al señor Rojas en la oficina, ofrecer el café caliente y acompañar al señor Rojas a la oficina
+  15/30 O033.wav: 9.1 s | "Toma la amanta verde, ponla en el sofá y apaga la luz." -> Voy a tomar la amanta verde, poner la amanta verde en el sofá y apagar la luz
+  16/30 O034.wav: 9.7 s | "Busca Daniela, entregale la carpeta azul y avísale a Sergio." -> Voy a buscar a Daniela en la sala, entregar la carpeta azul a Daniela y avisar a Sergio
+  17/30 O035.wav: 9.1 s | "Ve al garage, trae la escalera pequeña y llévasela a papá." -> Voy a ir al garage, tomar la escalera pequeña y llevar la escalera pequeña a papá
+  18/30 O036.wav: 8.6 s | "Llevo el café negro a la sala de reuniones. Salúa a los visitantes y cierra la puerta." -> ¿A quién quieres que salude?
+  19/30 O043.wav: 5.0 s | "Oye, ¿me traes una cobija limpia del cuarto?" -> Voy a traer la cobija larga al cuarto
+  20/30 O044.wav: 6.9 s | "y avísale a la señora Gómez que ya puede pasar" -> Voy a avisar a la señora Gómez en la sala y pasar en la sala
+  21/30 O045.wav: 7.6 s | "Uji y aurilo en Tana Grande, porfa." -> Voy a ejecutar el uji en Tana Grande y ejecutar el aurilo en Tana Grande
+  22/30 O046.wav: 6.4 s | "Mira, acompaña al cliente nuevo a la sala pequeña." -> Me falta información para mirar. ¿Puedes darme más detalles?
+  23/30 O047.wav: 7.6 s | "y por fargo en los platos sucios de la mesa" -> Voy a ayudar los platos sucios en la mesa y calentar el café en la mesa
+  24/30 O048.wav: 15.0 s | "oiga porfa me guarda esos documentos en la oficina grande" -> Voy a guardar los documentos en la oficina grande, ir a la oficina grande, guardar los documentos en la oficina grande, ir a la oficina grande y guardar los documentos en la oficina grande
+  25/30 O055.wav: 3.9 s | "¡Ahorilo!" -> Voy a ir al ahí
+  26/30 O056.wav: 2.1 s | "¡Qué día tan largo!" -> No entendí ninguna orden.
+  27/30 O057.wav: 3.9 s | "¡Gracias a todos!" -> Voy a gracias a los todos
+  28/30 O058.wav: 4.1 s | "y la censura está dañada otra vez" -> Voy a reparar la censura
+  29/30 O059.wav: 3.9 s | "mañana llueve" -> Voy a predecir en la mañana
+  30/30 O060.wav: 4.0 s | "avísale que ya vamos" -> Voy a avisar a la señora Ruiz
+Evaluando contra las anotaciones (corre el LLM tambien sobre el texto correcto)...
+
+30 ordenes | latencia mediana 4.96 s (max 17.5 s) | JSON valido 100%
+RAM pico aproximada del sistema: 2.04 GB (pico Python+Whisper 0.86 GB + LLM en Ollama 1.17 GB)
+
+Extremo a extremo (30 audios) | WER 12.7%
+                       F1 prom  Estruct  Robust  JSON% Exactas%
+con transcripcion        0.635    0.478   0.400  100.0     23.3
+con texto correcto       0.702    0.544   0.580  100.0     36.7
+Evaluacion extremo a extremo en e2e_qwen2.5-1.5b_whisper-small_20261021_095148.json
+Predicciones en pred_e2e_qwen2.5-1.5b_small.json

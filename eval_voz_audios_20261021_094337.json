@@ -1,0 +1,1009 @@
+{
+ "config": {
+  "entrada": "audios",
+  "beam": 1,
+  "n_audios": 30
+ },
+ "resultados": [
+  {
+   "motor": "whisper-tiny",
+   "n": 30,
+   "wer_pct": 41.0,
+   "latencia_mediana_s": 0.267,
+   "rtf": 0.075,
+   "carga_s": 0.77,
+   "detalle": [
+    {
+     "id": "O007",
+     "referencia": "Cierra la ventana",
+     "hipotesis": "Si es real la ventana.",
+     "wer": 1.0,
+     "latencia_s": 0.937,
+     "duracion_audio_s": 4.84
+    },
+    {
+     "id": "O008",
+     "referencia": "Atiende al cliente",
+     "hipotesis": "Atiende al cliente.",
+     "wer": 0.0,
+     "latencia_s": 0.25,
+     "duracion_audio_s": 3.59
+    },
+    {
+     "id": "O009",
+     "referencia": "Enciende el televisor",
+     "hipotesis": "Enciende el televisor.",
+     "wer": 0.0,
+     "latencia_s": 0.283,
+     "duracion_audio_s": 3.25
+    },
+    {
+     "id": "O010",
+     "referencia": "Anuncia a Camila",
+     "hipotesis": "Anuncia a Camila.",
+     "wer": 0.0,
+     "latencia_s": 0.262,
+     "duracion_audio_s": 3.2
+    },
+    {
+     "id": "O011",
+     "referencia": "Busca el control",
+     "hipotesis": "Busca el control",
+     "wer": 0.0,
+     "latencia_s": 0.257,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O012",
+     "referencia": "Entrega la carta",
+     "hipotesis": "Intriga la carta",
+     "wer": 0.333,
+     "latencia_s": 0.244,
+     "duracion_audio_s": 3.15
+    },
+    {
+     "id": "O019",
+     "referencia": "Pon la sopa caliente sobre la mesa grande",
+     "hipotesis": "Pón la sopa caliente sobre la mesa grande.",
+     "wer": 0.0,
+     "latencia_s": 0.279,
+     "duracion_audio_s": 5.23
+    },
+    {
+     "id": "O020",
+     "referencia": "Trae el café frío a la sala pequeña",
+     "hipotesis": "Tres el café frio a la sala pequena.",
+     "wer": 0.25,
+     "latencia_s": 0.259,
+     "duracion_audio_s": 3.43
+    },
+    {
+     "id": "O021",
+     "referencia": "Guarda la ropa limpia en el armario viejo",
+     "hipotesis": "Guarda la ropa limpia en el armario de ellos.",
+     "wer": 0.25,
+     "latencia_s": 0.265,
+     "duracion_audio_s": 3.93
+    },
+    {
+     "id": "O022",
+     "referencia": "Lleva la bolsa roja a la recepción principal",
+     "hipotesis": "Jiva la bolsa ruga la Recepción principal.",
+     "wer": 0.375,
+     "latencia_s": 0.259,
+     "duracion_audio_s": 4.63
+    },
+    {
+     "id": "O023",
+     "referencia": "Trae la cobija gris al sofá",
+     "hipotesis": "Trae la coija gris al sofá.",
+     "wer": 0.167,
+     "latencia_s": 0.251,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O024",
+     "referencia": "Busca al señor alto en el pasillo",
+     "hipotesis": "Busca al señor alto en el pasillo.",
+     "wer": 0.0,
+     "latencia_s": 0.262,
+     "duracion_audio_s": 4.06
+    },
+    {
+     "id": "O031",
+     "referencia": "Ve a la sala, recoge los platos sucios y llévalos a la cocina",
+     "hipotesis": "Vea la sala, recuelos platos, sucios y yo a los a la cocina.",
+     "wer": 0.538,
+     "latencia_s": 0.287,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O032",
+     "referencia": "Recibe al señor Rojas, ofrécele un café caliente y acompáñalo a la oficina grande",
+     "hipotesis": "Recide al señor rojas, ofrece en un café caliente y acompañarlo a la oficina grande.",
+     "wer": 0.286,
+     "latencia_s": 0.269,
+     "duracion_audio_s": 7.8
+    },
+    {
+     "id": "O033",
+     "referencia": "Toma la manta verde, ponla en el sofá y apaga la luz",
+     "hipotesis": "Toma la monta verde, pón la nelchofa y apagal al uso.",
+     "wer": 0.667,
+     "latencia_s": 0.281,
+     "duracion_audio_s": 6.19
+    },
+    {
+     "id": "O034",
+     "referencia": "Busca a Daniela, entrégale la carpeta azul y avísale a Sergio",
+     "hipotesis": "Busca a aniela, entrega la carpeta azul y avisa de hacer jeo.",
+     "wer": 0.545,
+     "latencia_s": 0.275,
+     "duracion_audio_s": 6.06
+    },
+    {
+     "id": "O035",
+     "referencia": "Ve al garaje, trae la escalera pequeña y llévasela a papá",
+     "hipotesis": "Ve al garaj, trae la escalera pequeña y lleva a celar a papá.",
+     "wer": 0.364,
+     "latencia_s": 0.278,
+     "duracion_audio_s": 5.85
+    },
+    {
+     "id": "O036",
+     "referencia": "Lleva el café negro a la sala de reuniones, saluda a los visitantes y cierra la puerta",
+     "hipotesis": "Yo el Cofinegrua la sala de reuniones, salú a los visitantes y cierre la puerta.",
+     "wer": 0.353,
+     "latencia_s": 0.296,
+     "duracion_audio_s": 6.94
+    },
+    {
+     "id": "O043",
+     "referencia": "oye me traes una cobija limpia del cuarto",
+     "hipotesis": "hoy y metré es una cubija limpia al cuarto",
+     "wer": 0.75,
+     "latencia_s": 0.261,
+     "duracion_audio_s": 4.34
+    },
+    {
+     "id": "O044",
+     "referencia": "ey avísale a la señora Gómez que ya puede pasar",
+     "hipotesis": "Y a Visual y a la señora Gomez que ya puede pasar.",
+     "wer": 0.4,
+     "latencia_s": 0.264,
+     "duracion_audio_s": 4.39
+    },
+    {
+     "id": "O045",
+     "referencia": "oye abre la ventana grande porfa",
+     "hipotesis": "Uji y Aurela en Tama Grande Porfa",
+     "wer": 0.833,
+     "latencia_s": 0.268,
+     "duracion_audio_s": 3.77
+    },
+    {
+     "id": "O046",
+     "referencia": "mira acompaña al cliente nuevo a la sala pequeña",
+     "hipotesis": "Mira, acompañar el cliente nuevo a la sala pequeña.",
+     "wer": 0.222,
+     "latencia_s": 0.253,
+     "duracion_audio_s": 5.2
+    },
+    {
+     "id": "O047",
+     "referencia": "ey porfa recoge los platos sucios de la mesa",
+     "hipotesis": "Y por farcoelos plato susios de la mesa.",
+     "wer": 0.667,
+     "latencia_s": 0.269,
+     "duracion_audio_s": 5.17
+    },
+    {
+     "id": "O048",
+     "referencia": "oiga porfa me guarda estos documentos en la oficina grande",
+     "hipotesis": "Oiga por favor, me guardes sus documentos en la oficina grande.",
+     "wer": 0.4,
+     "latencia_s": 0.274,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O055",
+     "referencia": "Ábrelo",
+     "hipotesis": "¡Aurelo!",
+     "wer": 1.0,
+     "latencia_s": 0.478,
+     "duracion_audio_s": 2.55
+    },
+    {
+     "id": "O056",
+     "referencia": "Qué día tan largo",
+     "hipotesis": "¿Qué ya tan largo?",
+     "wer": 0.25,
+     "latencia_s": 0.245,
+     "duracion_audio_s": 2.99
+    },
+    {
+     "id": "O057",
+     "referencia": "Llévalas allá",
+     "hipotesis": "¡Divolas a ya!",
+     "wer": 1.5,
+     "latencia_s": 0.241,
+     "duracion_audio_s": 2.63
+    },
+    {
+     "id": "O058",
+     "referencia": "El ascensor está dañado otra vez",
+     "hipotesis": "Y las insurizan ya otra vez.",
+     "wer": 0.667,
+     "latencia_s": 0.255,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O059",
+     "referencia": "Mañana llueve",
+     "hipotesis": "mañana, joywi",
+     "wer": 0.5,
+     "latencia_s": 0.948,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O060",
+     "referencia": "Avísale que ya vamos",
+     "hipotesis": "¡Avíselo que llevamos!",
+     "wer": 0.75,
+     "latencia_s": 0.416,
+     "duracion_audio_s": 2.7
+    }
+   ]
+  },
+  {
+   "motor": "whisper-base",
+   "n": 30,
+   "wer_pct": 31.1,
+   "latencia_mediana_s": 0.522,
+   "rtf": 0.133,
+   "carga_s": 0.91,
+   "detalle": [
+    {
+     "id": "O007",
+     "referencia": "Cierra la ventana",
+     "hipotesis": "Sierra la ventana",
+     "wer": 0.333,
+     "latencia_s": 0.504,
+     "duracion_audio_s": 4.84
+    },
+    {
+     "id": "O008",
+     "referencia": "Atiende al cliente",
+     "hipotesis": "Atiende al cliente",
+     "wer": 0.0,
+     "latencia_s": 0.479,
+     "duracion_audio_s": 3.59
+    },
+    {
+     "id": "O009",
+     "referencia": "Enciende el televisor",
+     "hipotesis": "Enciende el televisor",
+     "wer": 0.0,
+     "latencia_s": 0.497,
+     "duracion_audio_s": 3.25
+    },
+    {
+     "id": "O010",
+     "referencia": "Anuncia a Camila",
+     "hipotesis": "¡A nunsia a Camila!",
+     "wer": 0.667,
+     "latencia_s": 0.488,
+     "duracion_audio_s": 3.2
+    },
+    {
+     "id": "O011",
+     "referencia": "Busca el control",
+     "hipotesis": "Busca el control",
+     "wer": 0.0,
+     "latencia_s": 0.497,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O012",
+     "referencia": "Entrega la carta",
+     "hipotesis": "entrega la carta",
+     "wer": 0.0,
+     "latencia_s": 0.477,
+     "duracion_audio_s": 3.15
+    },
+    {
+     "id": "O019",
+     "referencia": "Pon la sopa caliente sobre la mesa grande",
+     "hipotesis": "Pon la sopa caliente sobre la mesa grande.",
+     "wer": 0.0,
+     "latencia_s": 0.514,
+     "duracion_audio_s": 5.23
+    },
+    {
+     "id": "O020",
+     "referencia": "Trae el café frío a la sala pequeña",
+     "hipotesis": "Trabajé el café frío a la sala pequeña",
+     "wer": 0.125,
+     "latencia_s": 0.505,
+     "duracion_audio_s": 3.43
+    },
+    {
+     "id": "O021",
+     "referencia": "Guarda la ropa limpia en el armario viejo",
+     "hipotesis": "Guarda la ropa limpia en el armario hierro.",
+     "wer": 0.125,
+     "latencia_s": 0.53,
+     "duracion_audio_s": 3.93
+    },
+    {
+     "id": "O022",
+     "referencia": "Lleva la bolsa roja a la recepción principal",
+     "hipotesis": "Lleva la bolsa rujá a la recepción principal",
+     "wer": 0.125,
+     "latencia_s": 0.528,
+     "duracion_audio_s": 4.63
+    },
+    {
+     "id": "O023",
+     "referencia": "Trae la cobija gris al sofá",
+     "hipotesis": "Trae la coija gris al sofá.",
+     "wer": 0.167,
+     "latencia_s": 0.522,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O024",
+     "referencia": "Busca al señor alto en el pasillo",
+     "hipotesis": "Busca al señor alto en el pasillo.",
+     "wer": 0.0,
+     "latencia_s": 0.498,
+     "duracion_audio_s": 4.06
+    },
+    {
+     "id": "O031",
+     "referencia": "Ve a la sala, recoge los platos sucios y llévalos a la cocina",
+     "hipotesis": "Vea la sala, recuegen los platos sucios y llévanos a la cocina.",
+     "wer": 0.308,
+     "latencia_s": 0.563,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O032",
+     "referencia": "Recibe al señor Rojas, ofrécele un café caliente y acompáñalo a la oficina grande",
+     "hipotesis": "Reside al señor Rojas ofrecen un café caliente y acompañalo a la oficina grande.",
+     "wer": 0.143,
+     "latencia_s": 0.554,
+     "duracion_audio_s": 7.8
+    },
+    {
+     "id": "O033",
+     "referencia": "Toma la manta verde, ponla en el sofá y apaga la luz",
+     "hipotesis": "Toma la manta verde, ponle en el sofá y apaga la luz.",
+     "wer": 0.083,
+     "latencia_s": 0.581,
+     "duracion_audio_s": 6.19
+    },
+    {
+     "id": "O034",
+     "referencia": "Busca a Daniela, entrégale la carpeta azul y avísale a Sergio",
+     "hipotesis": "Busca añela, entrega la carpeta azul y avisa le acercio",
+     "wer": 0.545,
+     "latencia_s": 0.55,
+     "duracion_audio_s": 6.06
+    },
+    {
+     "id": "O035",
+     "referencia": "Ve al garaje, trae la escalera pequeña y llévasela a papá",
+     "hipotesis": "Veal garage trae la escalera pequeña y lleva cela a papa",
+     "wer": 0.455,
+     "latencia_s": 0.521,
+     "duracion_audio_s": 5.85
+    },
+    {
+     "id": "O036",
+     "referencia": "Lleva el café negro a la sala de reuniones, saluda a los visitantes y cierra la puerta",
+     "hipotesis": "Llevo al café negro a la sala de reuniones, salúa a los visitantes y cierra la puerta.",
+     "wer": 0.176,
+     "latencia_s": 0.577,
+     "duracion_audio_s": 6.94
+    },
+    {
+     "id": "O043",
+     "referencia": "oye me traes una cobija limpia del cuarto",
+     "hipotesis": "hoy emetré es una covija limpia del cuarto",
+     "wer": 0.5,
+     "latencia_s": 0.514,
+     "duracion_audio_s": 4.34
+    },
+    {
+     "id": "O044",
+     "referencia": "ey avísale a la señora Gómez que ya puede pasar",
+     "hipotesis": "ella visale a la señora Gomez que ya puede pasar",
+     "wer": 0.2,
+     "latencia_s": 0.536,
+     "duracion_audio_s": 4.39
+    },
+    {
+     "id": "O045",
+     "referencia": "oye abre la ventana grande porfa",
+     "hipotesis": "Uji y Aurila intanagrande por farc.",
+     "wer": 1.0,
+     "latencia_s": 0.541,
+     "duracion_audio_s": 3.77
+    },
+    {
+     "id": "O046",
+     "referencia": "mira acompaña al cliente nuevo a la sala pequeña",
+     "hipotesis": "mira, acompañar al cliente nuevo a las a la pequeña",
+     "wer": 0.444,
+     "latencia_s": 0.54,
+     "duracion_audio_s": 5.2
+    },
+    {
+     "id": "O047",
+     "referencia": "ey porfa recoge los platos sucios de la mesa",
+     "hipotesis": "y por farcuelos platosusios de la mesa",
+     "wer": 0.667,
+     "latencia_s": 0.527,
+     "duracion_audio_s": 5.17
+    },
+    {
+     "id": "O048",
+     "referencia": "oiga porfa me guarda estos documentos en la oficina grande",
+     "hipotesis": "Oiga por favor, me guardé sus documentos en la oficina grande.",
+     "wer": 0.4,
+     "latencia_s": 0.556,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O055",
+     "referencia": "Ábrelo",
+     "hipotesis": "Ahorilo",
+     "wer": 1.0,
+     "latencia_s": 0.494,
+     "duracion_audio_s": 2.55
+    },
+    {
+     "id": "O056",
+     "referencia": "Qué día tan largo",
+     "hipotesis": "que ya tan largo",
+     "wer": 0.25,
+     "latencia_s": 0.517,
+     "duracion_audio_s": 2.99
+    },
+    {
+     "id": "O057",
+     "referencia": "Llévalas allá",
+     "hipotesis": "¡Divalos allá!",
+     "wer": 0.5,
+     "latencia_s": 1.8,
+     "duracion_audio_s": 2.63
+    },
+    {
+     "id": "O058",
+     "referencia": "El ascensor está dañado otra vez",
+     "hipotesis": "y la sensori saña otra vez",
+     "wer": 0.667,
+     "latencia_s": 0.779,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O059",
+     "referencia": "Mañana llueve",
+     "hipotesis": "mañana lluevi",
+     "wer": 0.5,
+     "latencia_s": 0.491,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O060",
+     "referencia": "Avísale que ya vamos",
+     "hipotesis": "Avisa le que llevábamos.",
+     "wer": 1.0,
+     "latencia_s": 0.489,
+     "duracion_audio_s": 2.7
+    }
+   ]
+  },
+  {
+   "motor": "whisper-small",
+   "n": 30,
+   "wer_pct": 13.2,
+   "latencia_mediana_s": 1.788,
+   "rtf": 0.413,
+   "carga_s": 2.79,
+   "detalle": [
+    {
+     "id": "O007",
+     "referencia": "Cierra la ventana",
+     "hipotesis": "Cierra la ventana.",
+     "wer": 0.0,
+     "latencia_s": 1.534,
+     "duracion_audio_s": 4.84
+    },
+    {
+     "id": "O008",
+     "referencia": "Atiende al cliente",
+     "hipotesis": "Atiende al cliente.",
+     "wer": 0.0,
+     "latencia_s": 1.566,
+     "duracion_audio_s": 3.59
+    },
+    {
+     "id": "O009",
+     "referencia": "Enciende el televisor",
+     "hipotesis": "Enciende el televisor.",
+     "wer": 0.0,
+     "latencia_s": 1.588,
+     "duracion_audio_s": 3.25
+    },
+    {
+     "id": "O010",
+     "referencia": "Anuncia a Camila",
+     "hipotesis": "Anuncia a Camila",
+     "wer": 0.0,
+     "latencia_s": 1.526,
+     "duracion_audio_s": 3.2
+    },
+    {
+     "id": "O011",
+     "referencia": "Busca el control",
+     "hipotesis": "Busca el control.",
+     "wer": 0.0,
+     "latencia_s": 1.543,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O012",
+     "referencia": "Entrega la carta",
+     "hipotesis": "Intrega la carta.",
+     "wer": 0.333,
+     "latencia_s": 1.5,
+     "duracion_audio_s": 3.15
+    },
+    {
+     "id": "O019",
+     "referencia": "Pon la sopa caliente sobre la mesa grande",
+     "hipotesis": "Pon la sopa caliente sobre la mesa grande.",
+     "wer": 0.0,
+     "latencia_s": 1.568,
+     "duracion_audio_s": 5.23
+    },
+    {
+     "id": "O020",
+     "referencia": "Trae el café frío a la sala pequeña",
+     "hipotesis": "Trae el café frío a la sala pequeña.",
+     "wer": 0.0,
+     "latencia_s": 1.609,
+     "duracion_audio_s": 3.43
+    },
+    {
+     "id": "O021",
+     "referencia": "Guarda la ropa limpia en el armario viejo",
+     "hipotesis": "Guarda la ropa limpia en el armario viejo.",
+     "wer": 0.0,
+     "latencia_s": 1.851,
+     "duracion_audio_s": 3.93
+    },
+    {
+     "id": "O022",
+     "referencia": "Lleva la bolsa roja a la recepción principal",
+     "hipotesis": "Lleva la bolsa roja a la recepción principal.",
+     "wer": 0.0,
+     "latencia_s": 1.825,
+     "duracion_audio_s": 4.63
+    },
+    {
+     "id": "O023",
+     "referencia": "Trae la cobija gris al sofá",
+     "hipotesis": "Trae la coija gris al sofá.",
+     "wer": 0.167,
+     "latencia_s": 1.75,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O024",
+     "referencia": "Busca al señor alto en el pasillo",
+     "hipotesis": "Busca al Señor Alto en el pasillo.",
+     "wer": 0.0,
+     "latencia_s": 1.735,
+     "duracion_audio_s": 4.06
+    },
+    {
+     "id": "O031",
+     "referencia": "Ve a la sala, recoge los platos sucios y llévalos a la cocina",
+     "hipotesis": "Ve a la sala, recuele los platos sucios y llevarlos a la cocina.",
+     "wer": 0.154,
+     "latencia_s": 1.88,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O032",
+     "referencia": "Recibe al señor Rojas, ofrécele un café caliente y acompáñalo a la oficina grande",
+     "hipotesis": "Recibe al señor Rojas, ofrecele un café caliente y acompáñalo a la oficina grande.",
+     "wer": 0.0,
+     "latencia_s": 1.994,
+     "duracion_audio_s": 7.8
+    },
+    {
+     "id": "O033",
+     "referencia": "Toma la manta verde, ponla en el sofá y apaga la luz",
+     "hipotesis": "Toma la amanta verde, ponla en el sofá y apaga la luz.",
+     "wer": 0.083,
+     "latencia_s": 1.888,
+     "duracion_audio_s": 6.19
+    },
+    {
+     "id": "O034",
+     "referencia": "Busca a Daniela, entrégale la carpeta azul y avísale a Sergio",
+     "hipotesis": "Busca Daniela, entregale la carpeta azul y avísale a Sergio.",
+     "wer": 0.091,
+     "latencia_s": 1.966,
+     "duracion_audio_s": 6.06
+    },
+    {
+     "id": "O035",
+     "referencia": "Ve al garaje, trae la escalera pequeña y llévasela a papá",
+     "hipotesis": "Ve al garage traer la escalera pequeña y llévasela a papá.",
+     "wer": 0.182,
+     "latencia_s": 2.018,
+     "duracion_audio_s": 5.85
+    },
+    {
+     "id": "O036",
+     "referencia": "Lleva el café negro a la sala de reuniones, saluda a los visitantes y cierra la puerta",
+     "hipotesis": "Llevo el café negro a la sala de reuniones. Salúa a los visitantes y cierra la puerta.",
+     "wer": 0.118,
+     "latencia_s": 2.076,
+     "duracion_audio_s": 6.94
+    },
+    {
+     "id": "O043",
+     "referencia": "oye me traes una cobija limpia del cuarto",
+     "hipotesis": "Oye, ¿me traes una cobija limpia del cuarto?",
+     "wer": 0.0,
+     "latencia_s": 1.913,
+     "duracion_audio_s": 4.34
+    },
+    {
+     "id": "O044",
+     "referencia": "ey avísale a la señora Gómez que ya puede pasar",
+     "hipotesis": "y avísale a la señora Gómez que ya puede pasar",
+     "wer": 0.1,
+     "latencia_s": 1.864,
+     "duracion_audio_s": 4.39
+    },
+    {
+     "id": "O045",
+     "referencia": "oye abre la ventana grande porfa",
+     "hipotesis": "Uji y aurilo en Tana Grande porfa",
+     "wer": 0.833,
+     "latencia_s": 1.801,
+     "duracion_audio_s": 3.77
+    },
+    {
+     "id": "O046",
+     "referencia": "mira acompaña al cliente nuevo a la sala pequeña",
+     "hipotesis": "Mira, acompaña al cliente nuevo a la sala pequeña.",
+     "wer": 0.0,
+     "latencia_s": 1.774,
+     "duracion_audio_s": 5.2
+    },
+    {
+     "id": "O047",
+     "referencia": "ey porfa recoge los platos sucios de la mesa",
+     "hipotesis": "Hey por Farrocoé los platos sucios de la mesa.",
+     "wer": 0.333,
+     "latencia_s": 1.887,
+     "duracion_audio_s": 5.17
+    },
+    {
+     "id": "O048",
+     "referencia": "oiga porfa me guarda estos documentos en la oficina grande",
+     "hipotesis": "Oiga porfa me guarda estos documentos en la oficina grande.",
+     "wer": 0.0,
+     "latencia_s": 1.856,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O055",
+     "referencia": "Ábrelo",
+     "hipotesis": "Ahorilo.",
+     "wer": 1.0,
+     "latencia_s": 1.562,
+     "duracion_audio_s": 2.55
+    },
+    {
+     "id": "O056",
+     "referencia": "Qué día tan largo",
+     "hipotesis": "Qué día tan largo.",
+     "wer": 0.0,
+     "latencia_s": 2.182,
+     "duracion_audio_s": 2.99
+    },
+    {
+     "id": "O057",
+     "referencia": "Llévalas allá",
+     "hipotesis": "¡Gracias a todos!",
+     "wer": 1.5,
+     "latencia_s": 2.429,
+     "duracion_audio_s": 2.63
+    },
+    {
+     "id": "O058",
+     "referencia": "El ascensor está dañado otra vez",
+     "hipotesis": "y la censura está dañada otra vez",
+     "wer": 0.667,
+     "latencia_s": 1.689,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O059",
+     "referencia": "Mañana llueve",
+     "hipotesis": "mañana jueves",
+     "wer": 0.5,
+     "latencia_s": 1.495,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O060",
+     "referencia": "Avísale que ya vamos",
+     "hipotesis": "avísale que ya vamos",
+     "wer": 0.0,
+     "latencia_s": 1.546,
+     "duracion_audio_s": 2.7
+    }
+   ]
+  },
+  {
+   "motor": "vosk",
+   "n": 30,
+   "wer_pct": 24.5,
+   "latencia_mediana_s": 0.339,
+   "rtf": 0.086,
+   "carga_s": 0.77,
+   "detalle": [
+    {
+     "id": "O007",
+     "referencia": "Cierra la ventana",
+     "hipotesis": "cierra la ventana",
+     "wer": 0.0,
+     "latencia_s": 0.327,
+     "duracion_audio_s": 4.84
+    },
+    {
+     "id": "O008",
+     "referencia": "Atiende al cliente",
+     "hipotesis": "atiende al cliente",
+     "wer": 0.0,
+     "latencia_s": 0.275,
+     "duracion_audio_s": 3.59
+    },
+    {
+     "id": "O009",
+     "referencia": "Enciende el televisor",
+     "hipotesis": "enciende el televisor",
+     "wer": 0.0,
+     "latencia_s": 0.299,
+     "duracion_audio_s": 3.25
+    },
+    {
+     "id": "O010",
+     "referencia": "Anuncia a Camila",
+     "hipotesis": "anuncia a camila",
+     "wer": 0.0,
+     "latencia_s": 0.275,
+     "duracion_audio_s": 3.2
+    },
+    {
+     "id": "O011",
+     "referencia": "Busca el control",
+     "hipotesis": "busca el control",
+     "wer": 0.0,
+     "latencia_s": 0.255,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O012",
+     "referencia": "Entrega la carta",
+     "hipotesis": "entrega en la carta",
+     "wer": 0.333,
+     "latencia_s": 0.271,
+     "duracion_audio_s": 3.15
+    },
+    {
+     "id": "O019",
+     "referencia": "Pon la sopa caliente sobre la mesa grande",
+     "hipotesis": "pon la sopa caliente sobre la mesa grande",
+     "wer": 0.0,
+     "latencia_s": 0.382,
+     "duracion_audio_s": 5.23
+    },
+    {
+     "id": "O020",
+     "referencia": "Trae el café frío a la sala pequeña",
+     "hipotesis": "trae el café frío al hacer la pequeña",
+     "wer": 0.375,
+     "latencia_s": 0.323,
+     "duracion_audio_s": 3.43
+    },
+    {
+     "id": "O021",
+     "referencia": "Guarda la ropa limpia en el armario viejo",
+     "hipotesis": "guardar la ropa limpia en el armario y",
+     "wer": 0.25,
+     "latencia_s": 0.315,
+     "duracion_audio_s": 3.93
+    },
+    {
+     "id": "O022",
+     "referencia": "Lleva la bolsa roja a la recepción principal",
+     "hipotesis": "lleva la bolsa roja la recepción principal",
+     "wer": 0.125,
+     "latencia_s": 0.393,
+     "duracion_audio_s": 4.63
+    },
+    {
+     "id": "O023",
+     "referencia": "Trae la cobija gris al sofá",
+     "hipotesis": "trae la cuida gris al sofá",
+     "wer": 0.167,
+     "latencia_s": 0.338,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O024",
+     "referencia": "Busca al señor alto en el pasillo",
+     "hipotesis": "busca al señor alto en el pasillo",
+     "wer": 0.0,
+     "latencia_s": 0.337,
+     "duracion_audio_s": 4.06
+    },
+    {
+     "id": "O031",
+     "referencia": "Ve a la sala, recoge los platos sucios y llévalos a la cocina",
+     "hipotesis": "vea la sala rico en los platos sucios y a luz a la cocina",
+     "wer": 0.462,
+     "latencia_s": 0.57,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O032",
+     "referencia": "Recibe al señor Rojas, ofrécele un café caliente y acompáñalo a la oficina grande",
+     "hipotesis": "recibe al señor rojas ofrecerle un café caliente y acompañarlo a la oficina grande",
+     "wer": 0.143,
+     "latencia_s": 0.525,
+     "duracion_audio_s": 7.8
+    },
+    {
+     "id": "O033",
+     "referencia": "Toma la manta verde, ponla en el sofá y apaga la luz",
+     "hipotesis": "toma la manta vierte ponla en el sofá y apaga la luz",
+     "wer": 0.083,
+     "latencia_s": 0.446,
+     "duracion_audio_s": 6.19
+    },
+    {
+     "id": "O034",
+     "referencia": "Busca a Daniela, entrégale la carpeta azul y avísale a Sergio",
+     "hipotesis": "busca daniela entregarle la carpeta azul y avísale a sergio",
+     "wer": 0.182,
+     "latencia_s": 0.478,
+     "duracion_audio_s": 6.06
+    },
+    {
+     "id": "O035",
+     "referencia": "Ve al garaje, trae la escalera pequeña y llévasela a papá",
+     "hipotesis": "vea al trae la escalera pequeña y llevársela a papá",
+     "wer": 0.273,
+     "latencia_s": 0.48,
+     "duracion_audio_s": 5.85
+    },
+    {
+     "id": "O036",
+     "referencia": "Lleva el café negro a la sala de reuniones, saluda a los visitantes y cierra la puerta",
+     "hipotesis": "yo el café negro en la sala de reuniones saluda a los visitantes y cierra la puerta",
+     "wer": 0.118,
+     "latencia_s": 0.523,
+     "duracion_audio_s": 6.94
+    },
+    {
+     "id": "O043",
+     "referencia": "oye me traes una cobija limpia del cuarto",
+     "hipotesis": "william mil tres una cobija limpia del cuarto",
+     "wer": 0.375,
+     "latencia_s": 0.431,
+     "duracion_audio_s": 4.34
+    },
+    {
+     "id": "O044",
+     "referencia": "ey avísale a la señora Gómez que ya puede pasar",
+     "hipotesis": "y avisarle a la señora gómez quilla puede pasar",
+     "wer": 0.4,
+     "latencia_s": 0.569,
+     "duracion_audio_s": 4.39
+    },
+    {
+     "id": "O045",
+     "referencia": "oye abre la ventana grande porfa",
+     "hipotesis": "huye abrir la ventana grande porfa",
+     "wer": 0.333,
+     "latencia_s": 0.354,
+     "duracion_audio_s": 3.77
+    },
+    {
+     "id": "O046",
+     "referencia": "mira acompaña al cliente nuevo a la sala pequeña",
+     "hipotesis": "mira de acompañada del cliente nuevo la sala picking",
+     "wer": 0.556,
+     "latencia_s": 0.473,
+     "duracion_audio_s": 5.2
+    },
+    {
+     "id": "O047",
+     "referencia": "ey porfa recoge los platos sucios de la mesa",
+     "hipotesis": "y porfa recoge los platos sucios de la mesa",
+     "wer": 0.111,
+     "latencia_s": 0.396,
+     "duracion_audio_s": 5.17
+    },
+    {
+     "id": "O048",
+     "referencia": "oiga porfa me guarda estos documentos en la oficina grande",
+     "hipotesis": "oiga pour femme guarde esos documentos en la oficina grande",
+     "wer": 0.4,
+     "latencia_s": 0.412,
+     "duracion_audio_s": 5.54
+    },
+    {
+     "id": "O055",
+     "referencia": "Ábrelo",
+     "hipotesis": "ahora lo",
+     "wer": 2.0,
+     "latencia_s": 0.24,
+     "duracion_audio_s": 2.55
+    },
+    {
+     "id": "O056",
+     "referencia": "Qué día tan largo",
+     "hipotesis": "qué día tan largo",
+     "wer": 0.0,
+     "latencia_s": 0.322,
+     "duracion_audio_s": 2.99
+    },
+    {
+     "id": "O057",
+     "referencia": "Llévalas allá",
+     "hipotesis": "a las allá",
+     "wer": 1.0,
+     "latencia_s": 0.246,
+     "duracion_audio_s": 2.63
+    },
+    {
+     "id": "O058",
+     "referencia": "El ascensor está dañado otra vez",
+     "hipotesis": "el ascensores año otra vez",
+     "wer": 0.5,
+     "latencia_s": 0.341,
+     "duracion_audio_s": 3.46
+    },
+    {
+     "id": "O059",
+     "referencia": "Mañana llueve",
+     "hipotesis": "mañana llueve",
+     "wer": 0.0,
+     "latencia_s": 0.228,
+     "duracion_audio_s": 2.76
+    },
+    {
+     "id": "O060",
+     "referencia": "Avísale que ya vamos",
+     "hipotesis": "avisarle que vamos",
+     "wer": 0.5,
+     "latencia_s": 0.277,
+     "duracion_audio_s": 2.7
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+# Laboratorio 7 - dependencias (Python 3.12)
+ollama
+psutil
+numpy
+faster-whisper
+sounddevice      # grabar.py y demo.py (microfono)
+soundfile        # leer/escribir WAV
+jiwer            # WER de la transcripcion (evaluar_voz.py)
+vosk             # segunda opcion de voz a texto (evaluar_voz.py)
+# Opcional
+piper-tts        # respuesta hablada (--hablar)
